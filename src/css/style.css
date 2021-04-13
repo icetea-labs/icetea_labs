@@ -477,11 +477,32 @@ body {
     margin: 0;
 }
 
+.client-title .main span {
+    display: block;
+}
+
 .client-title .sub {
     font-size: 16px;
     line-height: 28px;
     color: #9F9F9F;
     margin-top: 20px;
+}
+
+.slide-wrapper .splide__arrows {
+    display: none;
+}
+
+.slide-wrapper:hover .splide__arrows {
+    display: block;
+}
+
+.splide__arrows .splide__arrow--prev {
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.splide__arrows .splide__arrow--next {
+    transform: translate(50%, -50%);
 }
 
 .delimiter__mobile {
@@ -493,6 +514,7 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 100px;
+    margin-left: 4px;
 }
 
 .delimiter-item {
@@ -501,47 +523,17 @@ body {
     border-radius: 50%;
     margin-right: 12px;
     background: #FFF;
+    opacity: 0.2;
+    transition: all 0.4s;
 }
 
-.delimiter-item:nth-child(1) {
-    animation: delimiter1 40s infinite;
-}
-
-@keyframes delimiter1 {
-    0%, 25%, 100%{opacity: 1}
-
-    30%, 55%{opacity: 0.2}
-
-    60%, 85%{opacity: 0.2}
-}
-
-.delimiter-item:nth-child(2) {
-    animation: delimiter2 40s infinite;
-}
-
-@keyframes delimiter2 {
-    0%, 25%, 100%{opacity: 0.2}
-
-    30%, 55%{opacity: 1}
-
-    60%, 85%{opacity: 0.2}
-}
-
-.delimiter-item:nth-child(3) {
-    animation: delimiter3 40s infinite;
-}
-
-@keyframes delimiter3 {
-    0%, 25%, 100%{opacity: 0.2}
-
-    30%, 55%{opacity: 0.2}
-
-    60%, 85%{opacity: 1}
+.delimiter-item.selected {
+    opacity: 1;
+    transform: scale(1.2);
 }
 
 .client-main {
     flex: 1;
-    overflow: hidden;
     position: relative;
 }
 
@@ -552,22 +544,6 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    animation: slider 40s infinite;
-}
-
-
-@keyframes slider {
-    0%, 25%, 100%{left: 0}
-
-    30%, 55%{left: calc(-100% - 16px)}
-
-    60%, 85%{left: calc(-200% - 32px)}
-}
-
-.slide {
-    display: flex;
-    flex: 0 0 100%;
-    margin-right: 16px;
 }
 
 .card {
@@ -575,10 +551,7 @@ body {
     border-radius: 8px;
     padding: 32px;
     margin-right: 16px;
-}
-
-.card:last-child {
-    margin-right: 0;
+    height: 100%;
 }
 
 .card-main {
@@ -889,8 +862,8 @@ body {
         font-weight: 700;
     }
 
-    .client-title .main br {
-        display: none;
+    .client-title .main span {
+        display: unset;
     }
 
     .client-title .sub,
@@ -906,91 +879,7 @@ body {
         display: flex;
         margin-top: 48px;
         justify-content: center;
-    }
-
-    .delimiter__mobile .delimiter-item {
-        opacity: 0.2;
-        animation: delimiter 45s infinite cubic-bezier(0.8,0.2,1,0);
-    }
-
-    @keyframes delimiter {
-        0%, 100% {
-            opacity: 1;
-        }
-        11%, 22%, 33%, 44%, 55%, 66%, 77%, 88% {
-            opacity: 0.2;
-        }
-    }
-
-    .delimiter__mobile .delimiter-item:nth-child(1) {
-        opacity: 1;
-        animation-delay: 2.5s;
-    }
-
-    .delimiter__mobile .delimiter-item:nth-child(2) {
-        animation-delay: 7.5s;
-    }
-
-    .delimiter__mobile .delimiter-item:nth-child(3) {
-        animation-delay: 12.5s;
-    }
-
-    .delimiter__mobile .delimiter-item:nth-child(4) {
-        animation-delay: 17.5s;
-    }
-
-    .delimiter__mobile .delimiter-item:nth-child(5) {
-        animation-delay: 22.5s;
-    }
-
-    .delimiter__mobile .delimiter-item:nth-child(6) {
-        animation-delay: 27.5s;
-    }
-
-    .delimiter__mobile .delimiter-item:nth-child(7) {
-        animation-delay: 32.5s;
-    }
-
-    .delimiter__mobile .delimiter-item:nth-child(8) {
-        animation-delay: 37.5s;
-    }
-
-    .delimiter__mobile .delimiter-item:nth-child(9) {
-        animation-delay: 42.5s;
-    }
-
-    .slide-wrapper {
-        animation: sliderMobile 45s infinite 5s;
-    }
-
-    @keyframes sliderMobile {
-        0%, 100% {
-            left: 0;
-        }
-        11% {
-            left: calc(-100% - 16px);
-        }
-        22% {
-            left: calc(-200% - 32px);
-        }
-        33% {
-            left: calc(-300% - 48px);
-        }
-        44% {
-            left: calc(-400% - 64px);
-        }
-        55% {
-            left: calc(-500% - 80px);
-        }
-        66% {
-            left: calc(-600% - 96px);
-        }
-        77% {
-            left: calc(-700% - 112px);
-        }
-        88% {
-            left: calc(-800% - 128px);
-        }
+        padding-bottom: 2px;
     }
 
     .subscribe {
