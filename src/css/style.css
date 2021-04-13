@@ -763,6 +763,7 @@ body {
         display: block;
     }
 
+    .invert,
     .grayscale {
         filter: none;
     }
