@@ -4,168 +4,168 @@
 
 @font-face {
     font-family: 'DM Sans';
-    ..: url("../font/DM_Sans/DM_Sans-Bold.tff") format("truetype");
+    src: url("../font/DM_Sans/DMSans-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'DM Sans';
-    ..: url("../font/DM_Sans/DM_Sans-BoldItalic.tff") format("truetype");
+    src: url("../font/DM_Sans/DMSans-BoldItalic.ttf") format("truetype");
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'DM Sans';
-    ..: url("../font/DM_Sans/DM_Sans-Italic.tff") format("truetype");
+    src: url("../font/DM_Sans/DMSans-Italic.ttf") format("truetype");
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'DM Sans';
-    ..: url("../font/DM_Sans/DM_Sans-Medium.tff") format("truetype");
+    src: url("../font/DM_Sans/DMSans-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'DM Sans';
-    ..: url("../font/DM_Sans/DM_Sans-MediumItalic.tff") format("truetype");
+    src: url("../font/DM_Sans/DMSans-MediumItalic.ttf") format("truetype");
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'DM Sans';
-    ..: url("../font/DM_Sans/DM_Sans-Regular.tff") format("truetype");
+    src: url("../font/DM_Sans/DMSans-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-Black") format("truetype");
+    src: url("../font/Metropolis/Metropolis-Black.otf") format("opentype");
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-BlackItalic") format("truetype");
+    src: url("../font/Metropolis/Metropolis-BlackItalic.otf") format("opentype");
     font-weight: 900;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-Bold") format("truetype");
+    src: url("../font/Metropolis/Metropolis-Bold.otf") format("opentype");
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-BoldItalic") format("truetype");
+    src: url("../font/Metropolis/Metropolis-BoldItalic.otf") format("opentype");
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-ExtraBold") format("truetype");
+    src: url("../font/Metropolis/Metropolis-ExtraBold.otf") format("opentype");
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-ExtraBoldItalic") format("truetype");
+    src: url("../font/Metropolis/Metropolis-ExtraBoldItalic.otf") format("opentype");
     font-weight: 800;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-ExtraLight") format("truetype");
+    src: url("../font/Metropolis/Metropolis-ExtraLight.otf") format("opentype");
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-ExtraLightItalic") format("truetype");
+    src: url("../font/Metropolis/Metropolis-ExtraLightItalic.otf") format("opentype");
     font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-Light") format("truetype");
+    src: url("../font/Metropolis/Metropolis-Light.otf") format("opentype");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-LightItalic") format("truetype");
+    src: url("../font/Metropolis/Metropolis-LightItalic.otf") format("opentype");
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-Medium") format("truetype");
+    src: url("../font/Metropolis/Metropolis-Medium.otf") format("opentype");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-MediumItalic") format("truetype");
+    src: url("../font/Metropolis/Metropolis-MediumItalic.otf") format("opentype");
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-Regular") format("truetype");
+    src: url("../font/Metropolis/Metropolis-Regular.otf") format("opentype");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-RegularItalic") format("truetype");
+    src: url("../font/Metropolis/Metropolis-RegularItalic.otf") format("opentype");
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-SemiBold") format("truetype");
+    src: url("../font/Metropolis/Metropolis-SemiBold.otf") format("opentype");
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-SemiBoldItalic") format("truetype");
+    src: url("../font/Metropolis/Metropolis-SemiBoldItalic.otf") format("opentype");
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-Thin") format("truetype");
+    src: url("../font/Metropolis/Metropolis-Thin.otf") format("opentype");
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    ..url("../font/Metropolis/Metropolis-ThinItalic") format("truetype");
+    src: url("../font/Metropolis/Metropolis-ThinItalic.otf") format("opentype");
     font-weight: 100;
     font-style: italic;
 }
@@ -174,7 +174,7 @@ body {
     background: #191919;
     margin: 0;
     color: white;
-    font-family: 'Metropolis', sans-serif;
+    font-family: 'Metropolis';
 }
 
 .ml-1 {
@@ -200,17 +200,56 @@ body {
     border-radius: 50%;
     background: linear-gradient(186.13deg, #00D0FF 25.71%, rgba(0, 199, 244, 0) 95.15%);
     filter: blur(100px);
+    z-index: 1;
 }
 
-.text-surrounded {
+.invert {
+    filter: grayscale(100%) invert(0.4);
+    cursor: pointer;
+}
+
+.grayscale,
+.icon-grayscale {
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.grayscale:hover,
+.icon-grayscale:hover,
+.invert:hover {
+    filter: none;
+}
+
+.text-surrounded-1 {
+    margin-right: 12px;
+}
+
+.text-surrounded-1,
+.text-surrounded-2 {
     position: relative;
     overflow: visible;
 }
 
-.text-surrounded img {
+.text-surrounded-1:after {
+    content: '';
     position: absolute;
-    top: -4px;
-    left: -2px;
+    top: 0;
+    left: 0;
+    right: -4px;
+    bottom: -2px;
+    background: url("../images/surround.png") no-repeat;
+    background-size: contain;
+}
+
+.text-surrounded-2:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: -12px;
+    bottom: -12px;
+    background: url("../images/surround2.png") no-repeat;
+    background-size: contain;
 }
 
 .navbar {
@@ -222,7 +261,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 12px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans';
 }
 
 .navbar-brand {
@@ -233,6 +272,7 @@ body {
     font-size: 22px;
     line-height: 25px;
     margin-left: 60px;
+    font-weight: 700;
 }
 
 .navbar-menu {
@@ -241,15 +281,35 @@ body {
     margin: 0 60px;
 }
 
-.navbar-menu_item {
+.navbar-menu_item a {
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 500;
     padding: 6px 20px;
     cursor: pointer;
 }
 
+.navbar-button {
+    position: absolute;
+    right: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: none;
+    cursor: pointer;
+}
+
+.navbar-info {
+    display: none;
+}
+
 .hero {
-    background: url("../image/bg.png");
+    background: url("../images/bg.png");
     height: 100vh;
     background-size: cover;
 }
@@ -259,13 +319,19 @@ body {
     height: 100%;
     padding-top: 150px;
     padding-left: 100px;
+    position: relative;
 }
 
 .hero-main {
     width: 800px;
+    font-family: 'DM Sans';
     font-size: 48px;
     line-height: 60px;
     font-weight: 500;
+}
+
+.hero-main br {
+    display: none;
 }
 
 .fadeUp {
@@ -286,7 +352,7 @@ body {
 
 .mouse {
     position: absolute;
-    bottom: 32px;
+    bottom: 80px;
     left: 100px;
     display: none;
 }
@@ -307,18 +373,6 @@ body {
     }
 }
 
-@-webkit-keyframes mousemove {
-    0% {
-        transform: translateY(0px)
-    }
-    50% {
-        transform: translateY(-10px)
-    }
-    100% {
-        transform: translateY(0px)
-    }
-}
-
 .hero:hover .mouse {
     display: flex;
     flex-direction: column;
@@ -327,8 +381,8 @@ body {
 }
 
 .section {
-    margin-top: 150px;
-    padding: 0 100px;
+    margin-top: 60px;
+    padding: 60px 100px 0;
 }
 
 .section-title {
@@ -342,8 +396,8 @@ body {
 
 .service {
     display: flex;
-    align-items: center;
     padding-top: 48px;
+    padding-bottom: 100px;
 }
 
 .service-item {
@@ -407,6 +461,7 @@ body {
     width: 100%;
     max-width: 100%;
     overflow: hidden;
+    margin-top: 80px;
 }
 
 .client-title {
@@ -429,6 +484,10 @@ body {
     margin-top: 20px;
 }
 
+.delimiter__mobile {
+    display: none;
+}
+
 .delimiter {
     margin-top: 100px;
     display: flex;
@@ -445,7 +504,7 @@ body {
 }
 
 .delimiter-item:nth-child(1) {
-    animation: delimiter1 26s infinite;
+    animation: delimiter1 40s infinite;
 }
 
 @keyframes delimiter1 {
@@ -457,7 +516,7 @@ body {
 }
 
 .delimiter-item:nth-child(2) {
-    animation: delimiter2 26s infinite;
+    animation: delimiter2 40s infinite;
 }
 
 @keyframes delimiter2 {
@@ -469,7 +528,7 @@ body {
 }
 
 .delimiter-item:nth-child(3) {
-    animation: delimiter3 26s infinite;
+    animation: delimiter3 40s infinite;
 }
 
 @keyframes delimiter3 {
@@ -493,7 +552,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    animation: slider 26s infinite;
+    animation: slider 40s infinite;
 }
 
 
@@ -637,4 +696,327 @@ body {
     text-align: center;
     color: #9E9E9E;
     padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 52px;
+        background: #191919;
+        transition: height 0.4s;
+        justify-content: normal;
+    }
+
+    .navbar-brand {
+        margin-left: 16px;
+    }
+
+    .navbar-menu {
+        flex: 1;
+        padding: 0;
+        flex-direction: column;
+        margin: 60px 40px;
+    }
+
+    .navbar-menu.collapsed {
+        visibility: hidden;
+    }
+
+    .navbar-menu.collapsed + .navbar-button .opened {
+        display: none;
+    }
+
+    .navbar-menu.opened + .navbar-button .closed {
+        display: none;
+    }
+
+    .navbar-menu.opened ~ .navbar-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .navbar-menu.opened {
+        visibility: visible;
+        animation: slideDown 0.4s;
+    }
+
+    @keyframes slideDown {
+        0% {
+            transform: translateY(-100%);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    .navbar-menu_item {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 16px;
+    }
+
+    .navbar-button {
+        display: block;
+    }
+
+    .grayscale {
+        filter: none;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .hero {
+        background: url("../images/bg_mobile.png") no-repeat;
+        background-size: cover;
+    }
+
+    .hero-background {
+        padding: 0;
+        background: linear-gradient(319.3deg, rgba(25, 25, 25, 0) 17.01%, #191919 70.26%);
+    }
+
+    .hero-main {
+        width: 100%;
+        text-align: center;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 700;
+        padding: 60px 24px;
+    }
+
+    .hero-main br {
+        display: block;
+    }
+
+    .mouse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .section {
+        padding: 80px 24px 0;
+        margin-top: 0;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .service {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .service-item {
+        padding-right: 0;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+
+    .service-item_title br {
+        display: none;
+    }
+
+    .partner {
+        background: transparent;
+        display: grid;
+        grid-template-columns: calc(50% - 4px) calc(50% - 4px);
+        grid-template-rows: 80px 80px;
+        grid-gap: 8px;
+    }
+
+    .partner-item {
+        background: #121212;
+        border-radius: 8px;
+        padding: 0;
+        align-self: stretch;
+    }
+
+    .partner-item img {
+        transform: scale(0.7);
+    }
+
+    .triple {
+        flex-direction: column;
+    }
+
+    .triple-item {
+        width: auto;
+        height: 80px;
+        margin-right: 0;
+        flex: auto!important;
+    }
+
+    .triple-item img {
+        transform: scale(0.7);
+    }
+
+    .triple.grid {
+        display: grid;
+        grid-template-columns: calc(50% - 4px) calc(50% - 4px);
+        grid-auto-rows: 80px;
+        grid-gap: 8px;
+    }
+
+    .triple.grid .triple-item {
+        padding: 0;
+        align-self: stretch;
+    }
+
+    .client {
+        flex-direction: column;
+    }
+
+    .client-title {
+        text-align: center;
+        margin-right: 0;
+        flex: 0 0 100px;
+    }
+
+    .client-title .main {
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+
+    .client-title .main br {
+        display: none;
+    }
+
+    .client-title .sub,
+    .client-title .delimiter {
+        display: none;
+    }
+
+    .card {
+        width: calc(100vw - 48px);
+    }
+
+    .delimiter__mobile {
+        display: flex;
+        margin-top: 48px;
+        justify-content: center;
+    }
+
+    .delimiter__mobile .delimiter-item {
+        opacity: 0.2;
+        animation: delimiter 45s infinite cubic-bezier(0.8,0.2,1,0);
+    }
+
+    @keyframes delimiter {
+        0%, 100% {
+            opacity: 1;
+        }
+        11%, 22%, 33%, 44%, 55%, 66%, 77%, 88% {
+            opacity: 0.2;
+        }
+    }
+
+    .delimiter__mobile .delimiter-item:nth-child(1) {
+        opacity: 1;
+        animation-delay: 2.5s;
+    }
+
+    .delimiter__mobile .delimiter-item:nth-child(2) {
+        animation-delay: 7.5s;
+    }
+
+    .delimiter__mobile .delimiter-item:nth-child(3) {
+        animation-delay: 12.5s;
+    }
+
+    .delimiter__mobile .delimiter-item:nth-child(4) {
+        animation-delay: 17.5s;
+    }
+
+    .delimiter__mobile .delimiter-item:nth-child(5) {
+        animation-delay: 22.5s;
+    }
+
+    .delimiter__mobile .delimiter-item:nth-child(6) {
+        animation-delay: 27.5s;
+    }
+
+    .delimiter__mobile .delimiter-item:nth-child(7) {
+        animation-delay: 32.5s;
+    }
+
+    .delimiter__mobile .delimiter-item:nth-child(8) {
+        animation-delay: 37.5s;
+    }
+
+    .delimiter__mobile .delimiter-item:nth-child(9) {
+        animation-delay: 42.5s;
+    }
+
+    .slide-wrapper {
+        animation: sliderMobile 45s infinite 5s;
+    }
+
+    @keyframes sliderMobile {
+        0%, 100% {
+            left: 0;
+        }
+        11% {
+            left: calc(-100% - 16px);
+        }
+        22% {
+            left: calc(-200% - 32px);
+        }
+        33% {
+            left: calc(-300% - 48px);
+        }
+        44% {
+            left: calc(-400% - 64px);
+        }
+        55% {
+            left: calc(-500% - 80px);
+        }
+        66% {
+            left: calc(-600% - 96px);
+        }
+        77% {
+            left: calc(-700% - 112px);
+        }
+        88% {
+            left: calc(-800% - 128px);
+        }
+    }
+
+    .subscribe {
+        padding: 80px 24px;
+    }
+
+    .subscribe-title {
+        text-align: center;
+    }
+
+    .subscribe-title img {
+        transform: scale(0.6) translateX(-25%);
+    }
+
+    .subscribe-form {
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .subscribe-form input,
+    .subscribe-form button {
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
+
+    .icon-grayscale {
+        filter: grayscale(100%) !important;
+    }
 }

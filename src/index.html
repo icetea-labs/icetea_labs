@@ -5,7 +5,7 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" href="./image/logo.svg"/>
+  <link rel="shortcut icon" href="images/logo.svg"/>
   <link rel="stylesheet" type="text/css" href="./css/style.css"/>
   <script defer type="application/javascript" src="./script.js"></script>
   <title>Icetea Labs</title>
@@ -14,121 +14,152 @@
 <!-- nav -->
 <nav class="navbar">
   <a class="navbar-brand" href="/">
-    <img alt="icetea labs" src="./image/logo.svg"/>
+    <img alt="icetea labs" src="images/logo.svg"/>
     <span class="ml-1">Icetea Labs</span>
   </a>
-  <ul class="navbar-menu">
+  <ul class="navbar-menu collapsed">
     <li class="navbar-menu_item">
-      About us
+      <a data-location="#hero">About us</a>
     </li>
     <li class="navbar-menu_item">
-      Services
+      <a data-location="#service">Services</a>
     </li>
     <li class="navbar-menu_item">
-      Showcase
+      <a data-location="#showcase">Showcase</a>
     </li>
     <li class="navbar-menu_item">
-      Partner
+      <a data-location="#partner">Partner</a>
     </li>
   </ul>
+  <button class="navbar-button">
+    <img alt class="closed" src="images/menu.svg"/>
+    <img alt class="opened" src="images/close.png"/>
+  </button>
+  <div class="navbar-info">
+    <p>Community</p>
+    <div class="info-social">
+      <a href="#"><img class="icon-grayscale" alt src="images/telegram.svg"/></a>
+      <a href="#"><img class="icon-grayscale" alt src="images/twitter.svg"/></a>
+      <a href="#"><img class="icon-grayscale" alt src="images/facebook.svg"/></a>
+      <a href="#"><img class="icon-grayscale" alt src="images/github.svg"/></a>
+    </div>
+  </div>
 </nav>
 <!-- hero -->
-<div class="hero">
+<div class="hero" id="hero">
   <div class="dot"></div>
   <div class="hero-background">
     <div class="hero-main fadeUp">
-      <span class="text-surrounded">
+      <span class="text-surrounded-1">
         We support
-        <img alt src="./image/surround.png"/>
-      </span> visionary founders and energetic teams to create a long lasting positive impact through decentralization technologies.
+      </span> <br> visionary founders and energetic teams to create a long lasting positive impact through decentralization technologies.
     </div>
     <div class="mouse">
-      <img alt="" style="width: 24px; height: 24px" src="./images/mouse.svg">
+      <img alt="" style="width: 24px; height: 24px" src="images/mouse.svg">
       <p class="text-center text-white mt-2" style="font-size: 12px">SCROLL DOWN</p>
     </div>
   </div>
 </div>
 <!-- service -->
-<div class="section">
-  <h2 class="section-title">Our Service</h2>
+<div class="section" id="service">
+  <h2 class="section-title">Our Services</h2>
   <div class="service">
     <div class="service-item">
-      <img alt="" src="./image/support.svg"/>
-      <h3 class="service-item_title">Technical <br/> Consultancy</h3>
-      <p class="service-item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet libero iaculis, convallis ipsum quis, faucibus ante. Vivamus laoreet ante ac dictum</p>
+      <img alt="" src="images/support.svg"/>
+      <h3 class="service-item_title">Technical <br/> Advisor</h3>
+      <p class="service-item_desc">
+        We will accompany your project in the journey from technical architecture design, product development to implementation in real life, providing a clear picture of the status quo to take the next step towards fully harnessing the future potential of your project.
+      </p>
     </div>
     <div class="service-item">
-      <img alt="" src="./image/process.svg"/>
-      <h3 class="service-item_title">Managed <br/> Services</h3>
-      <p class="service-item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet libero iaculis, convallis ipsum quis, faucibus ante. Vivamus laoreet ante ac dictum</p>
+      <img alt="" src="images/process.svg"/>
+      <h3 class="service-item_title">Technical <br/> Support</h3>
+      <p class="service-item_desc">
+        We will accompany your project in the journey from technical architecture design, product development to implementation in real life, providing a clear picture of the status quo to take the next step towards fully harnessing the future potential of your project.
+      </p>
     </div>
     <div class="service-item">
-      <img alt="" src="./image/screen.svg"/>
-      <h3 class="service-item_title">Developer <br/> Hub</h3>
-      <p class="service-item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet libero iaculis, convallis ipsum quis, faucibus ante. Vivamus laoreet ante ac dictum</p>
-    </div>
-    <div class="service-item">
-      <img alt="" src="./image/incubation.svg"/>
+      <img alt="" src="images/incubation.svg"/>
       <h3 class="service-item_title">Project <br/> Incubation</h3>
-      <p class="service-item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet libero iaculis, convallis ipsum quis, faucibus ante. Vivamus laoreet ante ac dictum</p>
+      <p class="service-item_desc">
+        We finance potential projects on our own, mentor, and assist your project in connecting with our extensive network of strategic partners to raise both capital and brand awareness.
+      </p>
+    </div>
+    <div class="service-item">
+      <img alt="" src="images/screen.svg"/>
+      <h3 class="service-item_title">Developer <br/> Hub</h3>
+      <p class="service-item_desc">
+        We are backed by a network of strategic technology partners with more than 1,200 experienced and qualified programmers as well as a wide range of programming tools and utilities to help product development on Polkadot become simpler and easier than ever.
+      </p>
     </div>
   </div>
 </div>
 <!-- partner -->
-<div class="section">
+<div class="section" id="partner">
   <h2 class="section-title">Partner</h2>
   <div class="partner">
     <div class="partner-item">
-      <img alt="M6" src="./image/m6_white.png"/>
+      <img class="invert" alt="M6" src="images/m6.png"/>
     </div>
     <div class="partner-item">
-      <img alt="Fomocraft" src="./image/fomocraft_white.png"/>
+      <img class="invert" alt="Fomocraft" src="images/fomocraft.png"/>
     </div>
     <div class="partner-item">
-      <img alt="Blue Block" src="./image/blueblock_white.png"/>
+      <img class="invert" alt="Blue Block" src="images/blueblock.png"/>
     </div>
     <div class="partner-item">
-      <img alt="PBDA" src="./image/PBDA_white.png"/>
+      <img class="invert" alt="PBDA" src="images/PBDA.png"/>
     </div>
   </div>
 </div>
 <!-- spin off -->
+<div class="section">
+  <h2 class="section-title">Spin-off</h2>
+  <div class="triple">
+    <div class="triple-item">
+      <img class="invert" alt="PolkaFoundry" src="images/polkafoundry.png"/>
+    </div>
+  </div>
+</div>
 <!-- incubation -->
+<div class="section">
+  <h2 class="section-title">Incubation</h2>
+  <div class="triple grid">
+    <div class="triple-item">
+      <img class="invert" alt="NFTIFY" src="images/nftify.png"/>
+    </div>
+    <div class="triple-item">
+      <img class="grayscale" alt="angeldex" src="images/angeldex.png"/>
+    </div>
+    <div class="triple-item">
+      <img class="grayscale" alt="fara land" src="images/fara.png"/>
+    </div>
+  </div>
+</div>
 <!-- advisory -->
 <div class="section">
-  <div class="triple">
-    <div>
-      <h2 class="section-title">Spin-off</h2>
-      <div class="triple-item">
-        <img alt="PolkaFoundry" src="./image/polkafoundry.png"/>
-      </div>
+  <h2 class="section-title">Advisory</h2>
+  <div class="triple grid">
+    <div class="triple-item">
+      <img class="invert" alt="Genesis Shard" src="images/genesis_shard.svg"/>
     </div>
-    <div>
-      <h2 class="section-title">Incubation</h2>
-      <div class="triple-item">
-        <img alt="NFTIFY" src="./image/nftify.png"/>
-      </div>
-    </div>
-    <div>
-      <h2 class="section-title">Advisory</h2>
-      <div class="triple-item">
-        <img alt="Genesis Shard" src="./image/genesis_shard.png"/>
-      </div>
+    <div class="triple-item">
+      <img class="invert" alt="Polkarare" src="images/polkarare.png"/>
     </div>
   </div>
 </div>
 <!-- icetea labs -->
 <div class="section">
   <h2 class="section-title">Labs</h2>
-  <div class="triple">
+  <div class="triple grid">
     <div class="triple-item">
-      <img alt="Red Kite" src="./image/red_kite.png"/>
+      <img class="grayscale" alt="Red Kite" src="images/red_kite.svg"/>
     </div>
     <div class="triple-item">
-      <img alt="Teawork" src="./image/teawork_white.png"/>
+      <img class="grayscale" alt="Teawork" src="images/teawork.png"/>
     </div>
     <div class="triple-item">
-      <img alt="Lovelock" src="./image/lovelock_white.png"/>
+      <img class="grayscale" alt="Lovelock" src="images/lovelock.png"/>
     </div>
   </div>
 </div>
@@ -137,15 +168,14 @@
   <div class="client">
     <div class="client-title">
       <p class="main">Our Clients <br/>
-         Saying <br/>
-         About  <br/>
-         <span class="text-surrounded">
+        Saying <br/>
+        About  <br/>
+        <span class="text-surrounded-2">
            Icetea Labs
-           <img alt src="./image/surround2.png"/>
          </span>
       </p>
       <p class="sub">Essential, Simple, and Enjoyable</p>
-      <div class="delimiter" id="delimiter">
+      <div class="delimiter">
         <div class="delimiter-item"></div>
         <div class="delimiter-item"></div>
         <div class="delimiter-item"></div>
@@ -159,7 +189,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum arcu vel ex vulputate suscipit. Donec laoreet felis a lectus rhoncus, vitae convallis sem interdum. Cras non enim porttitor, pharetra elit gravida, gravida erat. Morbi vitae ligula
             </div>
             <div class="card-info">
-              <img alt src="./image/ava1.png"/>
+              <img alt src="images/ava1.png"/>
               <div class="ml-1">
                 <div class="client-name">Tommy Le</div>
                 <div class="client-detail">Founder & CEO - Sotatek</div>
@@ -171,7 +201,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum arcu vel ex vulputate suscipit. Donec laoreet felis a lectus rhoncus, vitae convallis sem interdum. Cras non enim porttitor, pharetra elit gravida, gravida erat. Morbi vitae ligula
             </div>
             <div class="card-info">
-              <img alt src="./image/ava2.png"/>
+              <img alt src="images/ava2.png"/>
               <div class="ml-1">
                 <div class="client-name">Dylan Dong Do</div>
                 <div class="client-detail">CEO - Ekoios</div>
@@ -183,7 +213,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum arcu vel ex vulputate suscipit. Donec laoreet felis a lectus rhoncus, vitae convallis sem interdum. Cras non enim porttitor, pharetra elit gravida, gravida erat. Morbi vitae ligula
             </div>
             <div class="card-info">
-              <img alt src="./image/ava3.png"/>
+              <img alt src="images/ava3.png"/>
               <div class="ml-1">
                 <div class="client-name">Ha Pham</div>
                 <div class="client-detail">UI Design Leader Trada Tech</div>
@@ -197,7 +227,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum arcu vel ex vulputate suscipit. Donec laoreet felis a lectus rhoncus, vitae convallis sem interdum. Cras non enim porttitor, pharetra elit gravida, gravida erat. Morbi vitae ligula
             </div>
             <div class="card-info">
-              <img alt src="./image/ava1.png"/>
+              <img alt src="images/ava1.png"/>
               <div class="ml-1">
                 <div class="client-name">Tommy Le</div>
                 <div class="client-detail">Founder & CEO - Sotatek</div>
@@ -209,7 +239,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum arcu vel ex vulputate suscipit. Donec laoreet felis a lectus rhoncus, vitae convallis sem interdum. Cras non enim porttitor, pharetra elit gravida, gravida erat. Morbi vitae ligula
             </div>
             <div class="card-info">
-              <img alt src="./image/ava2.png"/>
+              <img alt src="images/ava2.png"/>
               <div class="ml-1">
                 <div class="client-name">Dylan Dong Do</div>
                 <div class="client-detail">CEO - Ekoios</div>
@@ -221,7 +251,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum arcu vel ex vulputate suscipit. Donec laoreet felis a lectus rhoncus, vitae convallis sem interdum. Cras non enim porttitor, pharetra elit gravida, gravida erat. Morbi vitae ligula
             </div>
             <div class="card-info">
-              <img alt src="./image/ava3.png"/>
+              <img alt src="images/ava3.png"/>
               <div class="ml-1">
                 <div class="client-name">Ha Pham</div>
                 <div class="client-detail">UI Design Leader Trada Tech</div>
@@ -235,7 +265,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum arcu vel ex vulputate suscipit. Donec laoreet felis a lectus rhoncus, vitae convallis sem interdum. Cras non enim porttitor, pharetra elit gravida, gravida erat. Morbi vitae ligula
             </div>
             <div class="card-info">
-              <img alt src="./image/ava1.png"/>
+              <img alt src="images/ava1.png"/>
               <div class="ml-1">
                 <div class="client-name">Tommy Le</div>
                 <div class="client-detail">Founder & CEO - Sotatek</div>
@@ -247,7 +277,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum arcu vel ex vulputate suscipit. Donec laoreet felis a lectus rhoncus, vitae convallis sem interdum. Cras non enim porttitor, pharetra elit gravida, gravida erat. Morbi vitae ligula
             </div>
             <div class="card-info">
-              <img alt src="./image/ava2.png"/>
+              <img alt src="images/ava2.png"/>
               <div class="ml-1">
                 <div class="client-name">Dylan Dong Do</div>
                 <div class="client-detail">CEO - Ekoios</div>
@@ -259,7 +289,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum arcu vel ex vulputate suscipit. Donec laoreet felis a lectus rhoncus, vitae convallis sem interdum. Cras non enim porttitor, pharetra elit gravida, gravida erat. Morbi vitae ligula
             </div>
             <div class="card-info">
-              <img alt src="./image/ava3.png"/>
+              <img alt src="images/ava3.png"/>
               <div class="ml-1">
                 <div class="client-name">Ha Pham</div>
                 <div class="client-detail">UI Design Leader Trada Tech</div>
@@ -269,13 +299,24 @@
         </div>
       </div>
     </div>
+    <div class="delimiter__mobile">
+      <div class="delimiter-item"></div>
+      <div class="delimiter-item"></div>
+      <div class="delimiter-item"></div>
+      <div class="delimiter-item"></div>
+      <div class="delimiter-item"></div>
+      <div class="delimiter-item"></div>
+      <div class="delimiter-item"></div>
+      <div class="delimiter-item"></div>
+      <div class="delimiter-item"></div>
+    </div>
   </div>
 </div>
 <!-- subscribe -->
 <div class="subscribe">
   <div class="subscribe-title">
     Get the Latest in Your Inbox
-    <img alt src="./image/underline.png"/>
+    <img alt src="images/underline.png"/>
   </div>
   <form id="subscribe" class="subscribe-form">
     <input type="email" name="EMAIL" placeholder="Enter your email" required/>
@@ -285,16 +326,16 @@
 </div>
 <!-- info -->
 <div class="info">
-  <img alt src="./image/logo2.png">
+  <img alt src="images/logo2.png">
   <div class="info-address">
     68 Circular Road, #02-01, Singapore 049422
   </div>
   <a href="mailto:info@icetea.io" class="info-mail">info@icetea.io</a>
   <div class="info-social">
-    <a href="#"><img alt src="./image/telegram.svg"/></a>
-    <a href="#"><img alt src="./image/twitter.svg"/></a>
-    <a href="#"><img alt src="./image/facebook.svg"/></a>
-    <a href="#"><img alt src="./image/github.svg"/></a>
+    <a href="#"><img class="icon-grayscale" alt src="images/telegram.svg"/></a>
+    <a href="#"><img class="icon-grayscale" alt src="images/twitter.svg"/></a>
+    <a href="#"><img class="icon-grayscale" alt src="images/facebook.svg"/></a>
+    <a href="#"><img class="icon-grayscale" alt src="images/github.svg"/></a>
   </div>
 </div>
 <!-- footer -->
