@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import Splide from '@splidejs/splide';
+// import Splide from '@splidejs/splide';
 import '@splidejs/splide/dist/css/splide.min.css'
 import './css/style.css'
 
@@ -37,17 +37,6 @@ $(document).ready(function () {
     observer.observe(section)
   })
 
-  function resizeSlider() {
-    const slider = document.querySelector('.slide-wrapper')
-    const wrapper = slider?.parentElement
-    if(slider.clientHeight > wrapper.clientHeight) {
-      wrapper.style.minHeight = slider.clientHeight + 'px'
-    }
-  }
-
-
-  window.addEventListener('resize', resizeSlider);
-
   let collapsed = true
   const navBtn = document.querySelector('.navbar-button')
   navBtn.addEventListener('click', () => {
@@ -81,42 +70,79 @@ $(document).ready(function () {
     })
   })
 
-  const isMobileReso = window.innerWidth <= 600
+  $('#subscribe').submit(function (e) {
+    var $this = $(this);
+    $this.find('.error').text('')
+    e.preventDefault();
+    var url = "https://icetea.us3.list-manage.com/subscribe/post-json?u=0fbb6304481fc398e41b28f09&id=5968f8dfbe&c=?";
+    $.ajax({
+      type: "GET",
+      url: url,
+      data: $this.serialize(),
+      dataType: 'json',
+      contentType: "application/json; charset=utf-8",
+      error: function (err) {
+        console.log("Could not connect to the registration server.");
+        var $error = document.querySelector('.subscribe-info');
+        $error.addClass('text-danger').removeClass('text-success').text('Something went wrong, please try again later.');
+      },
+      success: function (data) {
+        var info = document.querySelector('.subscribe-info');
+        if (data.result != "success") {
+          info.addClass('text-danger').removeClass('text-success').text('Something went wrong, please try again later.');
+        } else {
+          info.addClass('text-success').removeClass('text-danger').text('Thank you for subscribing.');
+        }
+      }
+    });
+  })
 
-  const splide = new Splide('.splide', {
-    type: 'loop',
-    perPage: isMobileReso ? 1 : 3,
-    perMove: isMobileReso ? 1 : 3,
-    pagination: false,
-    autoplay: true,
-    interval: 8000
-  })
-  splide.on('mounted', function () {
-    setTimeout(() => {
-      resizeSlider()
-    }, 300)
-    if(isMobileReso) {
-      document.querySelector('.delimiter__mobile').childNodes[0].classList.add('selected')
-    } else {
-      document.querySelector('.delimiter').childNodes[0].classList.add('selected')
-    }
-  })
-  splide.mount();
-  splide.on('move', function (newIndex) {
-    let index, delimiter
-    if(isMobileReso) {
-      delimiter = document.querySelector('.delimiter__mobile')
-      index = newIndex
-    } else {
-      delimiter = document.querySelector('.delimiter')
-      index = newIndex / 3
-    }
-    const items = delimiter.childNodes
-    items.forEach(item => {
-      item.classList.remove('selected')
-    })
-    items[index].classList.add('selected')
-  })
+  // function resizeSlider() {
+  //   const slider = document.querySelector('.slide-wrapper')
+  //   const wrapper = slider?.parentElement
+  //   if(slider.clientHeight > wrapper.clientHeight) {
+  //     wrapper.style.minHeight = slider.clientHeight + 'px'
+  //   }
+  // }
+  //
+  // window.addEventListener('resize', resizeSlider);
+  //
+  // const isMobileReso = window.innerWidth <= 600
+  //
+  // const splide = new Splide('.splide', {
+  //   type: 'loop',
+  //   perPage: isMobileReso ? 1 : 3,
+  //   perMove: isMobileReso ? 1 : 3,
+  //   pagination: false,
+  //   autoplay: true,
+  //   interval: 8000
+  // })
+  // splide.on('mounted', function () {
+  //   setTimeout(() => {
+  //     resizeSlider()
+  //   }, 300)
+  //   if(isMobileReso) {
+  //     document.querySelector('.delimiter__mobile').childNodes[0].classList.add('selected')
+  //   } else {
+  //     document.querySelector('.delimiter').childNodes[0].classList.add('selected')
+  //   }
+  // })
+  // splide.mount();
+  // splide.on('move', function (newIndex) {
+  //   let index, delimiter
+  //   if(isMobileReso) {
+  //     delimiter = document.querySelector('.delimiter__mobile')
+  //     index = newIndex
+  //   } else {
+  //     delimiter = document.querySelector('.delimiter')
+  //     index = newIndex / 3
+  //   }
+  //   const items = delimiter.childNodes
+  //   items.forEach(item => {
+  //     item.classList.remove('selected')
+  //   })
+  //   items[index].classList.add('selected')
+  // })
 })
 
 

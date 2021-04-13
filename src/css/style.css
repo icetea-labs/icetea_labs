@@ -214,9 +214,10 @@ body {
     cursor: pointer;
 }
 
-.grayscale:hover,
 .icon-grayscale:hover,
-.invert:hover {
+.partner-item:hover .invert,
+.triple-item:hover .grayscale,
+.triple-item:hover .invert {
     filter: none;
 }
 
@@ -434,6 +435,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .triple {
@@ -454,6 +456,7 @@ body {
     background-color: #121212;
     border-radius: 8px;
     margin-right: 45px;
+    cursor: pointer;
 }
 
 .client {
@@ -629,6 +632,21 @@ body {
     line-height: 24px;
     padding: 12px 24px;
     cursor: pointer;
+}
+
+.subscribe-info {
+    font-size: 14px;
+    line-height: 24px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.text-success {
+    color: #00C851;
+}
+
+.text-danger {
+    color: #ff4444;
 }
 
 .info {
