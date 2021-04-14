@@ -15,17 +15,32 @@
     <span class="ml-1">Icetea Labs</span>
   </a>
   <ul class="navbar-menu collapsed">
+    <!--    <li class="navbar-menu_item">-->
+    <!--      <a data-location="#hero">About us</a>-->
+    <!--    </li>-->
     <li class="navbar-menu_item">
-      <a data-location="#hero">About us</a>
+      <a data-location="#service">Our Services</a>
     </li>
-    <li class="navbar-menu_item">
-      <a data-location="#service">Services</a>
-    </li>
-    <li class="navbar-menu_item">
-      <a data-location="#showcase">Showcase</a>
-    </li>
+    <!--    <li class="navbar-menu_item">-->
+    <!--      <a data-location="#showcase">Showcase</a>-->
+    <!--    </li>-->
     <li class="navbar-menu_item">
       <a data-location="#partner">Partner</a>
+    </li>
+    <li class="navbar-menu_item">
+      <a data-location="#spinoff">Spin-off</a>
+    </li>
+    <li class="navbar-menu_item">
+      <a data-location="#incubation">Incubation</a>
+    </li>
+    <li class="navbar-menu_item">
+      <a data-location="#advisory">Advisory</a>
+    </li>
+    <li class="navbar-menu_item">
+      <a data-location="#labs">Labs</a>
+    </li>
+    <li class="navbar-menu_item">
+      <a data-location="#testimonial">Testimonial</a>
     </li>
   </ul>
   <button class="navbar-button">
@@ -35,10 +50,9 @@
   <div class="navbar-info">
     <p>Community</p>
     <div class="info-social">
-      <a href="#"><img class="icon-grayscale" alt src="images/telegram.svg"/></a>
-      <a href="#"><img class="icon-grayscale" alt src="images/twitter.svg"/></a>
-      <a href="#"><img class="icon-grayscale" alt src="images/facebook.svg"/></a>
-      <a href="#"><img class="icon-grayscale" alt src="images/github.svg"/></a>
+      <a href="https://t.me/polkafoundry/" target="_blank"><img class="icon-grayscale" alt src="images/telegram.svg"/></a>
+      <a href="https://twitter.com/Icetea_Labs" target="_blank"><img class="icon-grayscale" alt src="images/twitter.svg"/></a>
+      <a href="https://www.linkedin.com/company/icetea-labs" target="_blank"><img class="icon-grayscale" alt src="images/linkedin.svg"/></a>
     </div>
   </div>
 </nav>
@@ -63,27 +77,39 @@
   <div class="service">
     <div class="service-item">
       <img alt="" src="images/support.svg"/>
-      <h3 class="service-item_title">Technical <br/> Advisor</h3>
+      <h3 class="service-item_title">
+        <span>Advisory</span>
+        <span>Partner</span>
+      </h3>
       <p class="service-item_desc">
         We will accompany your project in the journey from technical architecture design, product development to implementation in real life, providing a clear picture of the status quo to take the next step towards fully harnessing the future potential of your project.
       </p>
     </div>
     <div class="service-item">
       <img alt="" src="images/process.svg"/>
-      <h3 class="service-item_title">Technical <br/> Support</h3>
+      <h3 class="service-item_title">
+        <span>Technical</span>
+        <span>Support</span>
+      </h3>
       <p class="service-item_desc">
         We can help you solve any obstacles in developing decentralized applications on the Polkadot ecosystem without any fuss with our deep insights and extensive experience in the blockchain field along with a team of highly skilled programmers.      </p>
     </div>
     <div class="service-item">
       <img alt="" src="images/incubation.svg"/>
-      <h3 class="service-item_title">Project <br/> Incubation</h3>
+      <h3 class="service-item_title">
+        <span>Project</span>
+        <span>Incubation</span>
+      </h3>
       <p class="service-item_desc">
         We finance potential projects on our own, mentor, and assist your project in connecting with our extensive network of strategic partners to raise both capital and brand awareness.
       </p>
     </div>
     <div class="service-item">
       <img alt="" src="images/screen.svg"/>
-      <h3 class="service-item_title">Developer <br/> Hub</h3>
+      <h3 class="service-item_title">
+        <span>Developer</span>
+        <span>Hub</span>
+      </h3>
       <p class="service-item_desc">
         We are backed by a network of strategic technology partners with more than 1,200 experienced and qualified programmers as well as a wide range of programming tools and utilities to help product development on Polkadot become simpler and easier than ever.
       </p>
@@ -93,32 +119,35 @@
 <!-- partner -->
 <div class="section" id="partner">
   <h2 class="section-title">Partner</h2>
-  <div class="partner">
-    <div class="partner-item">
+  <div class="triple grid">
+    <div class="triple-item">
       <img class="invert" alt="M6" src="images/m6.png"/>
     </div>
-    <div class="partner-item">
+    <div class="triple-item">
       <img class="invert" alt="Fomocraft" src="images/fomocraft.png"/>
     </div>
-    <div class="partner-item">
+    <div class="triple-item">
       <img class="invert" alt="Blue Block" src="images/blueblock.png"/>
     </div>
-    <div class="partner-item">
+    <div class="triple-item">
       <img class="invert" alt="PBDA" src="images/PBDA.png"/>
+    </div>
+    <div class="triple-item">
+      <img class="invert" alt="zykyo" src="images/zokyo.svg"/>
     </div>
   </div>
 </div>
 <!-- spin off -->
-<div class="section">
+<div class="section" id="spinoff">
   <h2 class="section-title">Spin-off</h2>
   <div class="triple">
-    <div class="triple-item">
+    <div class="triple-item polkafoundry">
       <img class="invert" alt="PolkaFoundry" src="images/polkafoundry.png"/>
     </div>
   </div>
 </div>
 <!-- incubation -->
-<div class="section">
+<div class="section" id="incubation">
   <h2 class="section-title">Incubation</h2>
   <div class="triple grid">
     <div class="triple-item">
@@ -133,7 +162,7 @@
   </div>
 </div>
 <!-- advisory -->
-<div class="section">
+<div class="section" id="advisory">
   <h2 class="section-title">Advisory</h2>
   <div class="triple grid">
     <div class="triple-item">
@@ -145,7 +174,7 @@
   </div>
 </div>
 <!-- icetea labs -->
-<div class="section">
+<div class="section" id="labs">
   <h2 class="section-title">Labs</h2>
   <div class="triple grid">
     <div class="triple-item">
@@ -338,17 +367,16 @@
   <div class="subscribe-info"></div>
 </div>
 <!-- info -->
-<div class="info">
+<div class="info" id="testimonial">
   <img alt src="images/logo2.png">
   <div class="info-address">
     68 Circular Road, #02-01, Singapore 049422
   </div>
   <a href="mailto:info@icetea.io" class="info-mail">info@icetea.io</a>
   <div class="info-social">
-    <a href="#"><img class="icon-grayscale" alt src="images/telegram.svg"/></a>
-    <a href="#"><img class="icon-grayscale" alt src="images/twitter.svg"/></a>
-    <a href="#"><img class="icon-grayscale" alt src="images/facebook.svg"/></a>
-    <a href="#"><img class="icon-grayscale" alt src="images/github.svg"/></a>
+    <a href="https://t.me/polkafoundry/" target="_blank"><img class="icon-grayscale" alt src="images/telegram.svg"/></a>
+    <a href="https://twitter.com/Icetea_Labs" target="_blank"><img class="icon-grayscale" alt src="images/twitter.svg"/></a>
+    <a href="https://www.linkedin.com/company/icetea-labs" target="_blank"><img class="icon-grayscale" alt src="images/linkedin.svg"/></a>
   </div>
 </div>
 <!-- footer -->

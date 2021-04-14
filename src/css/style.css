@@ -274,12 +274,20 @@ body {
     line-height: 25px;
     margin-left: 60px;
     font-weight: 700;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1280px) {
+    .navbar-brand {
+        margin-left: 0;
+    }
 }
 
 .navbar-menu {
     display: flex;
     list-style-type: none;
     margin: 0 60px;
+    padding: 0;
 }
 
 .navbar-menu_item a {
@@ -293,6 +301,7 @@ body {
     font-weight: 500;
     padding: 6px 20px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .navbar-button {
@@ -414,6 +423,10 @@ body {
     font-weight: 500;
 }
 
+.service-item_title span {
+    display: block;
+}
+
 .service-item_desc {
     margin: 0;
     font-size: 14px;
@@ -441,22 +454,26 @@ body {
 .triple {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .triple > div {
-    flex: 0 0 25%;
+    flex: 0 0 calc(25% - 40px);
 }
 
 .triple-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: calc(100% - 45px);
     height: 120px;
     background-color: #121212;
     border-radius: 8px;
-    margin-right: 45px;
+    margin-right: 40px;
     cursor: pointer;
+}
+
+.triple-item:nth-child(n+5) {
+    margin-top: 40px;
 }
 
 .client {
@@ -689,7 +706,7 @@ body {
     padding: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -763,16 +780,6 @@ body {
         display: none;
     }
 
-    .hero {
-        background: url("../images/bg_mobile.png") no-repeat;
-        background-size: cover;
-    }
-
-    .hero-background {
-        padding: 0;
-        background: linear-gradient(319.3deg, rgba(25, 25, 25, 0) 17.01%, #191919 70.26%);
-    }
-
     .hero-main {
         width: 100%;
         text-align: center;
@@ -814,8 +821,8 @@ body {
         text-align: center;
     }
 
-    .service-item_title br {
-        display: none;
+    .service-item_title span {
+        display: unset;
     }
 
     .partner {
@@ -848,10 +855,6 @@ body {
         flex: auto!important;
     }
 
-    .triple-item img {
-        transform: scale(0.7);
-    }
-
     .triple.grid {
         display: grid;
         grid-template-columns: calc(50% - 4px) calc(50% - 4px);
@@ -862,6 +865,10 @@ body {
     .triple.grid .triple-item {
         padding: 0;
         align-self: stretch;
+    }
+
+    .triple.grid .triple-item:nth-child(n+5) {
+        margin-top: 0;
     }
 
     .client {
@@ -926,5 +933,25 @@ body {
 
     .icon-grayscale {
         filter: grayscale(100%) !important;
+    }
+
+    .polkafoundry {
+        width: calc(50% - 4px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero {
+        background: url("../images/bg_mobile.png") no-repeat;
+        background-size: cover;
+    }
+
+    .hero-background {
+        padding: 0;
+        background: linear-gradient(319.3deg, rgba(25, 25, 25, 0) 17.01%, #191919 70.26%);
+    }
+
+    .triple-item img {
+        transform: scale(0.7);
     }
 }

@@ -1,6 +1,6 @@
 import * as $ from 'jquery'
 // import Splide from '@splidejs/splide';
-import '@splidejs/splide/dist/css/splide.min.css'
+// import '@splidejs/splide/dist/css/splide.min.css'
 import './css/style.css'
 
 $(document).ready(function () {
@@ -82,7 +82,7 @@ $(document).ready(function () {
       dataType: 'json',
       contentType: "application/json; charset=utf-8",
       error: function (err) {
-        console.log("Could not connect to the registration server.");
+        console.error(err);
         var $error = document.querySelector('.subscribe-info');
         $error.addClass('text-danger').removeClass('text-success').text('Something went wrong, please try again later.');
       },
