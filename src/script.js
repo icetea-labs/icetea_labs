@@ -2,6 +2,7 @@ import * as $ from 'jquery'
 // import Splide from '@splidejs/splide';
 // import '@splidejs/splide/dist/css/splide.min.css'
 import './css/style.css'
+import './images/og-image.png'
 
 $(document).ready(function () {
   let scroll = 0;
