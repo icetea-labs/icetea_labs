@@ -55,8 +55,9 @@ $(document).ready(function () {
     collapsed = !collapsed
   })
 
-  const navLink = document.querySelectorAll('.navbar-menu_item a')
-  navLink.forEach(link => {
+  const navLink = document.querySelectorAll('.navbar-menu_item a');
+  const infoLink = document.querySelectorAll('.info-middle a');
+  [...navLink, ...infoLink].forEach(link => {
     const locationId = link.dataset.location
     link.addEventListener('click', () => {
       let timeOut = 0
