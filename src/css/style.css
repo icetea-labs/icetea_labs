@@ -422,6 +422,16 @@ body {
     margin-bottom: 32px;
 }
 
+.section-subtitle {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
 .service {
     display: flex;
     padding-top: 48px;
@@ -905,7 +915,8 @@ body {
         margin-top: 0;
     }
 
-    .section-title {
+    .section-title,
+    .section-subtitle {
         text-align: center;
     }
 
