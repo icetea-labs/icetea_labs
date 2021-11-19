@@ -1103,3 +1103,12 @@ body {
         font-size: 16px;
     }
 }
+
+.text a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: DM Sans,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
