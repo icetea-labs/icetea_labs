@@ -815,6 +815,73 @@ body {
     font-size: 20px;
 }
 
+.news {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 60px auto;
+}
+
+.news-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.news-tag {
+    color: #00D0FF;
+}
+
+.news-time {
+    color: #7e7d7f;
+    font-style: italic;
+}
+
+h1.news-title {
+    font-size: 40px;
+}
+
+.news-socials {
+    border-top: 1px solid white;
+    padding-top: 16px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.news-socials a {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #FFF;
+    margin-right: 16px;
+    transition: 0.2s;
+}
+
+.news-socials a:hover {
+    background: #7e7d7f;
+}
+
+.news-socials a:hover > svg path {
+    fill: #00E0FF
+}
+
+.news img {
+    max-width: 100%;
+    margin: 60px 0;
+}
+
+.news p {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 24px 0;
+    letter-spacing: 0.2px;
+}
+
 @media screen and (max-width: 1024px) {
     .navbar {
         flex-direction: column;

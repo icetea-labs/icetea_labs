@@ -77,9 +77,15 @@ module.exports = {
         //     paths: glob.sync(`${PATHS.src}/**/*.html`,  { nodir: true }),
         // }),
         new HtmlWebpackPlugin({
-            title: 'PolkaFoundry',
+            title: 'Icetea Labs',
             template: path.resolve(__dirname, 'src/index.html'), // template file
             filename: 'index.html', // output file
+            favicon: path.resolve(__dirname, 'src/images/favicon.svg')
+        }),
+        new HtmlWebpackPlugin({
+            title: 'Icetea Labs News',
+            template: path.resolve(__dirname, 'src/news.html'), // template file
+            filename: 'news.html', // output file
             favicon: path.resolve(__dirname, 'src/images/favicon.svg')
         }),
     ],
