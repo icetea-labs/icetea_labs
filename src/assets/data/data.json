@@ -1,0 +1,21 @@
+[
+  {
+    "id": "1",
+    "type": "Announcement",
+    "title": "Hashed and Icetea Labs forge a strategic partnership",
+    "date": "FRI 02/11",
+    "image": "news/hashed.png",
+    "hashtags": [
+      "HASHED"
+    ],
+    "content": [
+      "Both companies will explore the details to cooperate closely in gaming and metaverse development and finance, ranging from infrastructure layers, platforms and services, to interoperable flagship products, supporting the full lifecycle of games and metaverses from tokenomics design, launching, to building traction.",
+      "Hashed is an early-stage venture firm focused on blockchain protocols. Led by serial entrepreneurs and engineers, Hashed focuses on expediting global blockchain adoption through strategic investments and community building. Based in South Korea, San Francisco, Singapore and Bangalore, Hashed has cultivated industry-defining web3 founders around the globe by accelerating protocols such as Terra Money, Axie Infinity, Klaytn, Link, and The Sandbox.. Hashed additionally operates metaverse studio UNOPND and Korean cryptocurrency custodian KODA.",
+      "Icetea Labs is a notable gaming and metaverse incubator and enabler in Asia - the world's most exciting blockchain gaming and metaverse community.\n\nThe strategic cooperation is expected to fuel the development and establish the interoperability standards for gaming and metaverse industry, especially in the SEA region."
+    ],
+    "tags": [
+      "Infrastructure",
+      "Partnership"
+    ]
+  }
+]
