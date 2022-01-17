@@ -2,11 +2,11 @@
   <div class="news">
     <div class="top-news">
       <div class="top-news__image">
-        <img alt src="news/top-new.png"/>
+        <img alt src="news/top-new.png" @click="goTo"/>
       </div>
       <div class="top-news__detail">
         <div :class="`top-news__detail--type ${type.toLowerCase()}`">{{ type }}</div>
-        <div class="top-news__detail--title">{{ title }}</div>
+        <div class="top-news__detail--title" @click="goTo">{{ title }}</div>
         <div class="top-news__detail--date">{{ date }}</div>
         <div class="top-news__detail--info">{{ info }}</div>
       </div>
@@ -56,6 +56,11 @@ export default {
             return this.news
       }
     }
+  },
+  methods: {
+    goTo() {
+      this.$router.push('/new/1')
+    }
   }
 }
 </script>
@@ -78,6 +83,7 @@ export default {
   .top-news__image img {
     width: 100%;
     border-radius: 16px;
+    cursor: pointer;
   }
 
   .top-news__detail {
@@ -103,6 +109,7 @@ export default {
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 4px;
+    cursor: pointer;
   }
 
   .top-news__detail--date {
