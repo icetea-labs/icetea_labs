@@ -257,4 +257,18 @@ h1 {
 .latest-row a {
   margin: 0 16px;
 }
+
+@media screen and (max-width: 600px) {
+  .new-socials {
+    position: static;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background: transparent;
+  }
+
+  .latest-row {
+    flex-direction: column;
+  }
+}
 </style>

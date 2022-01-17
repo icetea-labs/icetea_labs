@@ -224,4 +224,25 @@ export default {
   .pagination-item.selected {
     color: #00E0FF;
   }
+
+  @media screen and (max-width: 600px) {
+    .news {
+      max-width: 100%;
+      padding: 24px
+    }
+
+    .top-news {
+      flex-direction: column;
+    }
+
+    .top-news__detail {
+      padding-left: 0;
+      padding-top: 12px;
+    }
+
+    .news-tabview {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 </style>
