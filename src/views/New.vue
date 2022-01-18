@@ -4,7 +4,7 @@
       <div :class="`type ${type.toLowerCase()}`">{{ type }}</div>
       <div class="title">{{ title }}</div>
       <div class="date">{{ date }}</div>
-      <p class="content">{{ intro }}</p>
+      <p class="intro">{{ intro }}</p>
       <div class="image">
         <img alt :src="image"/>
       </div>
@@ -221,6 +221,15 @@ export default {
   line-height: 28px;
   margin-right: 8px;
   margin-bottom: 12px;
+}
+
+p.intro {
+  font-family: DM Sans, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 16px 0;
+  color: #9E9E9E;
+  font-style: italic;
 }
 
 p.content {
