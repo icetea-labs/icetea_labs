@@ -1,16 +1,17 @@
 <template>
-  <div class="new">
+  <div ref="new" class="new">
     <div v-if="exist" class="new-detail">
       <div :class="`type ${type.toLowerCase()}`">{{ type }}</div>
       <div class="title">{{ title }}</div>
       <div class="date">{{ date }}</div>
+      <p class="content">{{ intro }}</p>
       <div class="image">
         <img alt :src="image"/>
       </div>
       <div class="hashtag">
         <span v-for="(hashtag, i) in hashtags" :key="i">#{{hashtag}}</span>
       </div>
-      <p class="content" v-for="(p, i) in content" :key="i">{{p}}</p>
+      <p class="content" v-for="(p, i) in content" :key="i" v-html="p"></p>
       <div class="tag">
         TAGS: <span v-for="(tag, i) in tags" :key="i">{{ tag }}</span>
       </div>
@@ -82,6 +83,7 @@ export default {
       date: '',
       image: '',
       hashtags: [],
+      intro: '',
       content: [],
       tags: [],
     }
@@ -103,9 +105,34 @@ export default {
       this.date = detail.date
       this.image = detail.image
       this.hashtags = detail.hashtags
-      this.content = detail.content
+      this.content = detail.content.map(text => {
+        const indices = [];
+        const textArr = text.split('')
+        for(let i = 0; i<text.length; i++) {
+          if (textArr[i] === "\"" || textArr[i] === '“' || textArr[i] === '”')
+            indices.push(i);
+        }
+        let additionCharNo = 0
+        indices.forEach((index, i) => {
+          if(i % 2 === 0) {
+            textArr.splice(index+additionCharNo, 0, "<i>")
+            additionCharNo += 3
+          } else {
+            textArr.splice(index+additionCharNo, 0, "</i>")
+            additionCharNo += 4
+          }
+        })
+        return textArr.join('')
+      })
       this.tags = detail.tags
+      this.intro = detail.intro
     }
+  },
+  mounted() {
+    const container = this.$refs.new
+    const paragraphs = container.querySelectorAll('p')
+    paragraphs.forEach(p => {
+    })
   },
   methods: {
     copy() {
@@ -259,6 +286,15 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
+  .new {
+    padding: 24px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
   .new-socials {
     position: static;
     flex-direction: row;
