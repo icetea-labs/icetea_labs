@@ -1,5 +1,5 @@
 <template>
-  <div ref="new" class="new">
+  <div class="new">
     <div v-if="exist" class="new-detail">
       <div :class="`type ${type.toLowerCase()}`">{{ type }}</div>
       <div class="title">{{ title }}</div>
@@ -127,12 +127,6 @@ export default {
       this.tags = detail.tags
       this.intro = detail.intro
     }
-  },
-  mounted() {
-    const container = this.$refs.new
-    const paragraphs = container.querySelectorAll('p')
-    paragraphs.forEach(p => {
-    })
   },
   methods: {
     copy() {
