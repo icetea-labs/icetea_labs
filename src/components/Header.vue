@@ -18,6 +18,9 @@
         <a data-location="#ventures">Ventures</a>
       </li>
       <li class="navbar-menu_item">
+        <a data-location="#partner">Partner</a>
+      </li>
+      <li class="navbar-menu_item">
         <a data-location="#portfolio">Portfolio</a>
       </li>
       <li class="navbar-menu_item">

@@ -132,7 +132,18 @@
         </div>
       </div>
     </div>
-    <!-- advisory -->
+    <!-- partner -->
+    <div class="section" id="partner">
+      <h2 class="section-title">Strategic Partners</h2>
+      <div class="triple grid">
+        <div class="triple-item pointer">
+          <a href="https://www.hashed.com/" target="_blank">
+            <img class="grayscale" alt="hashed" src="../assets/images/hashed.svg"/>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio -->
     <div class="section" id="portfolio">
       <h2 class="section-title">Selected Token Portfolio</h2>
       <div class="triple grid">

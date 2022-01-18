@@ -51,9 +51,9 @@ export default {
     return {
       tab: 'all',
       type: 'Announcement',
-      title: 'Hashed and Icetea Labs forge a strategic partnership',
+      title: 'Hashed And Icetea Labs Join Forces Towards A Common Goal In GameFi And Metaverse',
       date: 'FRI 02/11',
-      info: 'Both companies will explore the details to cooperate closely in gaming and metaverse development and finance, ranging from infrastructure layers, platforms and services, to interoperable flagship products, supporting the full lifecycle of games and metaverses from tokenomics design, launching, to building traction...',
+      info: 'Hashed and Icetea Labs, as strategic partners, will co-build a self-sustainable, interoperable, open metaverse and GameFi ecosystem in the long run.',
       news,
       page: 1,
     }

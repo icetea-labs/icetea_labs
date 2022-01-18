@@ -13,6 +13,7 @@
         <a data-location="#inhouse">In-house</a>
         <a data-location="#subsidiary">Subsidiary</a>
         <a data-location="#ventures">Ventures</a>
+        <a data-location="#partner">Partner</a>
         <a data-location="#portfolio">Portfolio</a>
         <!--    <a data-location="#labs">Labs</a>-->
         <!--    <a data-location="">Testimonial</a>-->
