@@ -173,9 +173,9 @@ export default {
         {name: 'twitter:image', content: this.getImageLink(), id: 'twitter:image'},
 
         // Google +
-        {itemprop: 'name', content: this.getTitle().inner, id: 'name'},
-        {itemprop: 'og:description', content: this.intro, id: 'og:description'},
-        {itemprop: 'og:desc', content: this.intro, id: 'og:desc'},
+        {property: 'name', itemprop: 'name', content: this.getTitle().inner, id: 'name'},
+        {property: 'og:description', itemprop: 'og:description', content: this.intro, id: 'og:description'},
+        {property: 'og:desc', itemprop: 'og:desc', content: this.intro, id: 'og:desc'},
 
         // Facebook
         {property: 'og:title', content: `${this.getTitle().inner} | 'Icetea Labs'`, id: 'og:title'},
