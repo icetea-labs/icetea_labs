@@ -74,6 +74,17 @@ import NewLink from "../components/NewLink";
 export default {
   name: "New",
   components: {NewLink},
+  head: {
+    title() {
+      return this.getTitle()
+    },
+    meta() {
+      return this.getMetadata()
+    },
+    link() {
+      return this.getLinks()
+    }
+  },
   data() {
     return {
       id: '',
@@ -127,11 +138,55 @@ export default {
       this.tags = detail.tags
       this.intro = detail.intro
     }
+
+    this.$emit('updateHead')
   },
   methods: {
     copy() {
       const url = `https://www.icetea.io/#/new/${this.id}`
       navigator.clipboard.writeText(url)
+    },
+    getTitle() {
+      if(!this.title) {
+        return {
+          inner: 'Icetea Labs'
+        }
+      }
+      return {
+        inner: 'Icetea Labs - ' + this.title
+      }
+    },
+    getImageLink() {
+      return window.location+'/'+this.image
+    },
+    getMetadata() {
+      return [
+        {name: 'description', content: this.intro, id: 'description'},
+
+        // Twitter
+        {
+          name: 'twitter:title',
+          content: `${this.getTitle().inner} | 'Icetea Labs'`,
+          id: 'twitter:title'
+        },
+        {name: 'twitter:description', content: this.intro, id: 'twitter:description'},
+        {name: 'twitter:image', content: this.getImageLink(), id: 'twitter:image'},
+
+        // Google +
+        {itemprop: 'name', content: this.getTitle().inner, id: 'name'},
+        {itemprop: 'og:description', content: this.intro, id: 'og:description'},
+        {itemprop: 'og:desc', content: this.intro, id: 'og:desc'},
+
+        // Facebook
+        {property: 'og:title', content: `${this.getTitle().inner} | 'Icetea Labs'`, id: 'og:title'},
+        {property: 'og:image', content: this.getImageLink(), id: 'og:image'}
+      ]
+    },
+    getLinks() {
+      return [
+        {rel: 'icon', href: `${window.location}/favicon.svg`, sizes: '16x16', type: 'image/png'},
+        {rel: 'preload', href: this.getImageLink(), type: 'image/png'}
+      ]
     }
   }
 }
