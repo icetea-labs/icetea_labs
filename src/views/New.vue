@@ -184,7 +184,7 @@ export default {
     },
     getLinks() {
       return [
-        {rel: 'icon', href: `${window.location}/favicon.svg`, sizes: '16x16', type: 'image/png'},
+        {rel: 'icon', href: `${window.location}/favicon.svg`, sizes: '16x16'},
         {rel: 'preload', href: this.getImageLink(), type: 'image/png'}
       ]
     }

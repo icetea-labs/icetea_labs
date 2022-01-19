@@ -7,7 +7,8 @@
         <div class="hero-main fadeUp">
       <span class="text-surrounded-1">
         We support
-      </span> <br> visionary founders and energetic teams to create a long-lasting positive impact through decentralization technologies.
+      </span> <br> visionary founders and energetic teams to create a long-lasting positive impact through
+          decentralization technologies.
         </div>
         <div class="mouse">
           <img alt="" style="width: 24px; height: 24px" src="../assets/images/mouse.svg">
@@ -26,7 +27,8 @@
             <span>Incubation</span>
           </h3>
           <p class="service-item_desc">
-            We finance potential projects on our own, mentor, and assist your project in connecting with our extensive network of strategic partners to raise both capital and brand awareness.
+            We finance potential projects on our own, mentor, and assist your project in connecting with our extensive
+            network of strategic partners to raise both capital and brand awareness.
           </p>
         </div>
         <div class="service-item">
@@ -36,7 +38,9 @@
             <span>Partner</span>
           </h3>
           <p class="service-item_desc">
-            We will accompany your project on the journey from building a strategic plan, raising funds, marketing, product development to implementation in real life, providing a clear picture of the status quo to take the next step towards fully harnessing the future potential of your project.      </p>
+            We will accompany your project on the journey from building a strategic plan, raising funds, marketing,
+            product development to implementation in real life, providing a clear picture of the status quo to take the
+            next step towards fully harnessing the future potential of your project. </p>
         </div>
         <div class="service-item">
           <img alt="" src="../assets/images/process.svg"/>
@@ -45,7 +49,8 @@
             <span>Launching</span>
           </h3>
           <p class="service-item_desc">
-            We launch fully vetted projects on 2 of the top-class tier-1 launchpads on the market: Red Kite and GameFi, helping them to reach a high quality audience of millions.</p>
+            We launch fully vetted projects on 2 of the top-class tier-1 launchpads on the market: Red Kite and GameFi,
+            helping them to reach a high quality audience of millions.</p>
         </div>
         <div class="service-item">
           <img alt="" src="../assets/images/screen.svg"/>
@@ -54,7 +59,9 @@
             <span>Hub</span>
           </h3>
           <p class="service-item_desc">
-            We are backed by a network of strategic technology partners with more than 1,200 experienced and qualified programmers as well as a wide range of programming tools and utilities to help blockchain development become simpler and easier than ever.
+            We are backed by a network of strategic technology partners with more than 1,200 experienced and qualified
+            programmers as well as a wide range of programming tools and utilities to help blockchain development become
+            simpler and easier than ever.
           </p>
         </div>
       </div>
@@ -366,7 +373,8 @@
         Icetea Labs Startup <br/>
         Incubation Program
       </p>
-      <a class="program-btn" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScR2mVPdD6oiqwhl_3HpSoELMmQqYeUefdIJmDeghHjwdFGRw/viewform">
+      <a class="program-btn" target="_blank"
+         href="https://docs.google.com/forms/d/e/1FAIpQLScR2mVPdD6oiqwhl_3HpSoELMmQqYeUefdIJmDeghHjwdFGRw/viewform">
         Apply now
         <img alt src="images/arrow_right.svg"/>
       </a>
@@ -398,9 +406,9 @@ export default {
       }, 500);
     })
 
-    function addFadeUpAnimation (entries) {
+    function addFadeUpAnimation(entries) {
       entries.forEach((entry) => {
-        if(entry.isIntersecting) {
+        if (entry.isIntersecting) {
           entry.target.classList.add('fadeUp')
         }
       })
@@ -415,6 +423,46 @@ export default {
     sections.forEach((section) => {
       this.observer.observe(section)
     })
+  },
+  head: {
+    title() {
+      return {
+        inner: 'Icetea Labs'
+      }
+    },
+    link() {
+      return [
+        {rel: "icon", href: "https://icetea.io/favicon.svg"},
+      ]
+    },
+    meta() {
+      return [
+        {property: "og:image", content: "https://icetea.io/og-image.png"},
+        {property: "og:url", content: "https://icetea.io/"},
+        {
+          property: "og:title",
+          content: "The laboratory incubating and nurturing Polkadot projects, the trusted companion of visionary founders."
+        },
+        {
+          property: "og:description",
+          content: "We support visionary founders and energetic teams to create a long-lasting positive impact through decentralization technologies."
+        },
+        {property: "og:site_name", content: "Icetea Labs"},
+        {name: "twitter:card", value: "summary"},
+        {name: "twitter:url", content: "https://icetea.io/"},
+        {
+          name: "twitter:title",
+          content: "The laboratory incubating and nurturing Polkadot projects, the trusted companion of visionary founders."
+        },
+        {
+          name: "twitter:description",
+          content: "We support visionary founders and energetic teams to create a long-lasting positive impact through decentralization technologies."
+        },
+        {name: "twitter:image", content: "https://icetea.io/og-image.png"},
+        {name: "twitter:site", content: "@Icetea_Labs"},
+        {name: "twitter:creator", content: "@Icetea_Labs"},
+      ]
+    }
   }
 }
 </script>
