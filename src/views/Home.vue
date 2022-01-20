@@ -423,46 +423,6 @@ export default {
     sections.forEach((section) => {
       this.observer.observe(section)
     })
-  },
-  head: {
-    title() {
-      return {
-        inner: 'Icetea Labs'
-      }
-    },
-    link() {
-      return [
-        {rel: "icon", href: "https://icetea.io/favicon.svg"},
-      ]
-    },
-    meta() {
-      return [
-        {property: "og:image", content: "https://icetea.io/og-image.png"},
-        {property: "og:url", content: "https://icetea.io/"},
-        {
-          property: "og:title",
-          content: "The laboratory incubating and nurturing Polkadot projects, the trusted companion of visionary founders."
-        },
-        {
-          property: "og:description",
-          content: "We support visionary founders and energetic teams to create a long-lasting positive impact through decentralization technologies."
-        },
-        {property: "og:site_name", content: "Icetea Labs"},
-        {name: "twitter:card", value: "summary"},
-        {name: "twitter:url", content: "https://icetea.io/"},
-        {
-          name: "twitter:title",
-          content: "The laboratory incubating and nurturing Polkadot projects, the trusted companion of visionary founders."
-        },
-        {
-          name: "twitter:description",
-          content: "We support visionary founders and energetic teams to create a long-lasting positive impact through decentralization technologies."
-        },
-        {name: "twitter:image", content: "https://icetea.io/og-image.png"},
-        {name: "twitter:site", content: "@Icetea_Labs"},
-        {name: "twitter:creator", content: "@Icetea_Labs"},
-      ]
-    }
   }
 }
 </script>
