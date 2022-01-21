@@ -194,11 +194,6 @@
             <img class="grayscale" alt="kingdomquest" src="../assets/images/kingdomquest.png"/>
           </a>
         </div>
-        <div class="triple-item pointer">
-          <a href="https://ckingdom.io/" target="_blank">
-            <img class="grayscale" alt="ckingdom" src="../assets/images/ckingdom.png"/>
-          </a>
-        </div>
         <div class="triple-item pointer text">
           <a href="https://solice.io/" target="_blank">
             <img class="grayscale" alt="solice" src="../assets/images/solice.png"/>
