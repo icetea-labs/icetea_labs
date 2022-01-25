@@ -128,8 +128,8 @@
           </a>
         </div>
         <div class="triple-item pointer">
-          <a href="" target="_blank">
-            <img class="grayscale" alt="desports" src="../assets/images/desport.png"/>
+          <a href="https://desports.gg/" target="_blank">
+            <img style="height: 80px" class="grayscale" alt="desports" src="../assets/images/desport.svg"/>
           </a>
         </div>
         <div class="triple-item pointer">
