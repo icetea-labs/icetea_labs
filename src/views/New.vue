@@ -182,11 +182,13 @@ export default {
       this.content = detail.content.map((text) => {
         const indices = [];
         const bolds = [];
-        const textArr = text.split("");
+        let textArr = text.split("");
+
         for (let i = 0; i < text.length; i++) {
           if (textArr[i] === '"' || textArr[i] === "“" || textArr[i] === "”")
             indices.push(i);
-          if (textArr[i] === "\b") bolds.push(i);
+          if (textArr[i] === '\b') 
+            bolds.push(i);
         }
         let additionCharNo = 0;
         indices.forEach((index, i) => {
@@ -198,16 +200,19 @@ export default {
             additionCharNo += 4;
           }
         });
+        let additionCharBoldNo = 0;
         bolds.forEach((index, i) => {
           if (i % 2 === 0) {
-            textArr.splice(index + additionCharNo, 0, "<h2>");
-            additionCharNo += 3;
+            textArr.splice(index + additionCharBoldNo, 0, "<h2>");
+            additionCharBoldNo += 3;
           } else {
-            textArr.splice(index + additionCharNo, 0, "</h2>");
-            additionCharNo += 4;
+            textArr.splice(index + additionCharBoldNo, 0, "</h2>");
+            additionCharBoldNo += 4;
           }
         });
-        return textArr.join("");
+        textArr = textArr.filter(text => text != '\b')
+        let finalText = textArr.join("").replace("Twitter", '<a href="https://twitter.com/Icetea_Labs">Twitter</a>')
+        return finalText;
       });
       this.tags = detail.tags;
       this.intro = detail.intro;
