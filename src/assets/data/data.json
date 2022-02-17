@@ -18,9 +18,32 @@
       "Hashed is an early-stage venture firm focused on blockchain protocols. Led by serial entrepreneurs and engineers, Hashed focuses on expediting global blockchain adoption through strategic investments and community building. Based in South Korea, San Francisco, Singapore and Bangalore, Hashed has cultivated industry-defining web3 founders around the globe by accelerating protocols such as Terra Money, Axie Infinity, Klaytn, Link, and The Sandbox. Hashed additionally operates metaverse studio UNOPND and Korean cryptocurrency custodian KODA.",
       "Icetea Labs is a notable gaming and metaverse incubator and enabler in Asia - the world's most exciting blockchain gaming and metaverse community. Operating two of the best performing launchpads, GameFi.org and Red Kite, Icetea Labs has advised, strategically invested, and launched many high profile games and metaverses such as Bloktopia, Sidus, Solice, etc. Icetea Labs also owns Mirai game studio, and is working closely with several industry-leading partners on critical gaming and metaverse initiatives."
     ],
-    "tags": [
-      "Infrastructure",
-      "Partnership"
-    ]
+    "link": [],
+    "tags": ["Infrastructure", "Partnership"]
+  },
+  {
+    "id": "2",
+    "type": "Opinion",
+    "title": "Why We Invest: Solice - The first VR metaverse platform on Solana",
+    "date": "FRI 02/17",
+    "image": "news/solice.png",
+    "hashtags": [],
+    "intro": "The market is far beyond the gaming or blockchain communities, which can get easily onboarded from regular platforms like smartphones or laptops. Thus, a new metaverse utilizing the cutting edge technology of blockchain and giving the users an immersive experience within virtual reality (VR) is what makes Solice becomes one of the hottest projects recently.",
+    "content": [
+      "\bWhat is Solice?\b Solice is a VR Metaverse built on the Solana blockchain which is the fastest blockchain by far and is one of the fastest-growing ecosystems in the crypto world. Many platforms are supported in the Solice metaverse, removing the barrier of disparate hardware, software, and operating systems. This allows users to invite more friends and family, increasing the user base's exponential growth potential.",
+      "The Solice metaverse is built to provide people as much freedom as possible, much like in real life. By using the Solice native token, users can participate in democratic governance. The governance mechanism will be based on a liquid democracy and real-world inspiration rules and done via a DAO (Decentralized Autonomous Organization).",
+      "\bHighlights About Solice\b Solice, created by a core team of senior software engineers and creative designers, with assistance from VR gaming experts and crypto/DeFi veterans, promises to be the most immersive and engaging virtual world in the blockchain world.",
+      "One of the most exciting aspects of Solice is the limitless possibilities in its open 3D world: a Metaverse VR where users can play, build, own, exchange, and monetize their virtual experiences in an immersive way on the Solana blockchain.",
+      "What makes Solice different from current metaverse projects is the ability to improve the user experience, connecting them through VR and cross-platform technology. Currently, most metaverse projects are only on a single platform which is either on a smartphone or web-based. Solice metaverse is compatible with wearable VR/AR tech out of the box which will make users fully enjoy themselves in the metaverse world.",
+      "Besides, the lack of cross-platform functionality is another popular problem. Users are often limited to connecting with other users on the same platform, keeping content and user base centralized. Solice solves this problem by allowing cross-platform options. Whether users are using smartphones, desktop computers, or VR devices, all users can connect to the same metaverse to play, communicate, socialize and even work together.",
+      "Moreover, Solice project was backed by leading crypto investors, including Three Arrows Capital, Animoca Brands, and DeFiance Capital alongside strategic backers and partners such as Alameda Research, KuCoin Labs, Icetea Labs, and many more.",
+      "\bAbout Icetea Labs\b Icetea Labs is a notable gaming and metaverse incubator and enabler in Asia - the world's most exciting blockchain gaming and metaverse community. With an extensive network of venture capitalists and programmers, Icetea Labs provides four different services to firms that are tailored to their individual needs including Project incubation, Advisory partner, Project launching, and Developer Hub. Icetea Labs is currently working as a strategic consultant for many famous projects, such as GameFi, Red Kite, Faraland, Deathroad, Metawars, Wonder Hero, Dreams Quest, Warena, Mymasterwar, ASPO World, etc.",
+      "Follow us on Twitter to keep up with our latest projects and activities.",
+      "\bDisclaimer\b The article above is for general informational and educational purposes solely. Although every effort has been made to provide complete and accurate information, certain information contained here has been obtained from third-party sources, Icetea Labs makes no warranties, express or implied, or representations as to the accuracy of the content on this article.",
+      "In addition, the material contained in this article speaks only as of the date indicated. Any information, estimates, targets and/or opinions provided within this article are subject to change without notice. Icetea Labs do not have any obligation to provide revised opinions in the event of changed circumstances.",
+      "All investment strategies and decisions involve the risk of loss. Nothing contained in the above article or in this website should be interpreted as investment advice."
+    ],
+    "link": ["https://twitter.com/Icetea_Labs"],
+    "tags": ["Metaverse", "Solana", "Investment"]
   }
 ]
