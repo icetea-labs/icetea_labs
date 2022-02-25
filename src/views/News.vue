@@ -122,7 +122,7 @@ export default {
   },
   methods: {
     goTo() {
-      this.$router.push("/new/1");
+      this.$router.push("/news/1");
     },
     prev() {
       if (this.page > 1) this.page--;
