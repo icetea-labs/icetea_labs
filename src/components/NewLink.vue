@@ -1,6 +1,6 @@
 <template>
-  <a :href="`#/new/${id}`" target="_blank">
-    <img class="image" alt :src="image"/>
+  <a :href="`#/news/${id}`" target="_blank">
+    <img class="image" alt :src="image" />
     <div class="type" :style="typeBg">
       {{ type }}
     </div>
@@ -25,21 +25,21 @@ export default {
   },
   computed: {
     typeBg() {
-      switch(this.type.toLowerCase()) {
-        case 'announcement':
+      switch (this.type.toLowerCase()) {
+        case "announcement":
           return {
-            background: '#00E0FF50'
-          }
-        case 'opinion':
+            background: "#00E0FF50",
+          };
+        case "opinion":
           return {
-            background: '#F7C74550'
-          }
+            background: "#F7C74550",
+          };
         default:
-            return {}
+          return {};
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -79,6 +79,6 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  color: #9F9F9F
+  color: #9f9f9f;
 }
 </style>
