@@ -222,7 +222,7 @@ export default {
   },
   methods: {
     copy() {
-      const url = `https://www.icetea.io/#/new/${this.id}`;
+      const url = `https://www.icetea.io/#/news/${this.id}`;
       navigator.clipboard.writeText(url);
     },
     getTitle() {
