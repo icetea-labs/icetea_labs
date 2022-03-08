@@ -187,8 +187,7 @@ export default {
         for (let i = 0; i < text.length; i++) {
           if (textArr[i] === '"' || textArr[i] === "“" || textArr[i] === "”")
             indices.push(i);
-          if (textArr[i] === '\b') 
-            bolds.push(i);
+          if (textArr[i] === "\b") bolds.push(i);
         }
         let additionCharNo = 0;
         indices.forEach((index, i) => {
@@ -210,8 +209,21 @@ export default {
             additionCharBoldNo += 4;
           }
         });
-        textArr = textArr.filter(text => text != '\b')
-        let finalText = textArr.join("").replace("Twitter", '<a href="https://twitter.com/Icetea_Labs">Twitter</a>')
+        textArr = textArr.filter((text) => text != "\b");
+        let finalText = "";
+        finalText = textArr
+          .join("")
+          .replace(
+            "Twitter",
+            '<a href="https://twitter.com/Icetea_Labs">Twitter</a>'
+          );
+        finalText = textArr
+          .join("")
+          .replace(
+            "Eligible projects can apply here",
+            'Eligible projects can apply <a href="https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md">here</a>'
+          );
+
         return finalText;
       });
       this.tags = detail.tags;

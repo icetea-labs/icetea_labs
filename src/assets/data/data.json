@@ -45,5 +45,27 @@
     ],
     "link": ["https://twitter.com/Icetea_Labs"],
     "tags": ["Metaverse", "Solana", "Investment"]
+  },
+  {
+    "id": "3",
+    "type": "Announcement",
+    "title": "Icetea Labs Partners with Filecoin for Greater Decentralization and Asset Integrity in Open Metaverse",
+    "date": "TUE 03/08",
+    "image": "news/filecoin.png",
+    "hashtags": [],
+    "intro": "We’re pleased to announce Icetea Labs’ partnership with Filecoin, one of the pioneers in decentralized storage networks, to drive the adoption of decentralized data storage for blockchain-based projects, especially in the open metaverse.",
+    "content": [
+      "As a notable gaming and metaverse incubator and enabler in Asia, Icetea Labs pays particular attention not only to researching, building the workforce and inhabitants of metaverses, but also collaborating on infrastructure efforts.",
+      "The collaboration will see Icetea Labs becoming the bridge between Filecoin and future projects within our ecosystem that aim to have a large number of users and content uploaded. Filecoin can be a compelling alternative to traditional web services with the ability to make information and data persist in a secure, private manner. With a decentralized system like Filecoin, there is no risk of data loss once it’s stored. The projects’ files are split up, encrypted, and stored on many computers throughout the world. It helps avoid relying on trusted third parties, or vendors who keep the data hostage. Furthermore, the cost of storing data on Filecoin is remarkably lower than centralized enterprises today.",
+      "Through this collaboration, Filecoin will support Web3 games and metaverse projects within IceTea Labs’ network on their storage and infrastructure needs. In addition, projects using IPFS and Filecoin (and services like NFT.storage, Estuary, Web3.storage) for decentralized storage are eligible for a $5,000 grant.  Eligible projects can apply here. Applications are reviewed on a rolling basis.",
+      "At the same time, Icetea Labs will work with Filecoin and the Protocol Labs ecosystem fund to invest in and support high-quality open metaverse projects.",
+      "Icetea Labs and Filecoin will collaborate to open up more opportunities that benefit projects and development teams in the blockchain space in terms of decentralized data storage, funding, and launchpads. Both parties will explore further collaborations and foster a long-term relationship to support new ideas in the open metaverse and other fields of common interest.",
+      "\bAbout Filecoin\b Filecoin, the world’s largest decentralized network, allows users to store, request, and transfer data via a verifiable marketplace. Filecoin is completely open-source, enabling people from all over the world to participate. The Filecoin protocol runs on an advanced and novel proof system — a combination of Proof of Spacetime (PoSt) and Proof of Replication (PoRep), to provide unmatched efficiency and reliability.",
+      "Filecoin’s advanced technology provides a robust foundation to store the world’s most valuable data sets. An alternative to costly cloud storage, the Filecoin network offers efficiently priced and geographically decentralized storage, minimizing financial barriers and allowing users to take advantage of its unmatched network capabilities.",
+      "\bAbout Icetea Labs\b Icetea Labs is a notable gaming and metaverse incubator and enabler in Asia - the world's most exciting blockchain gaming and metaverse community. With an extensive network of venture capitalists and programmers, Icetea Labs provides four different services to firms that are tailored to their individual needs including Project incubation, Advisory partner, Project launching, and Developer Hub.",
+      "Icetea Labs is currently working as a strategic consultant for many famous projects, such as GameFi, Red Kite, Faraland, Deathroad, Metawars, Wonder Hero, Dreams Quest, Warena, Mymasterwar, ASPO World, etc."
+    ],
+    "link": [],
+    "tags": ["Filecoin", "Partnership"]
   }
 ]
