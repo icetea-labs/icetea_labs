@@ -179,10 +179,10 @@
         <div class="triple-item pointer">
           <a href="https://desports.gg/" target="_blank">
             <img
-              style="height: 80px"
+              style="height: 70px"
               class="grayscale"
               alt="desports"
-              src="../assets/images/desport.svg"
+              src="../assets/images/desport.png"
             />
           </a>
         </div>
