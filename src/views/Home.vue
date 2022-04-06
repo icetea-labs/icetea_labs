@@ -168,7 +168,7 @@
           </a>
         </div>
         <div class="triple-item pointer">
-          <a href="http://epicwar.io/home" target="_blank">
+          <a href="https://epicwar.io/" target="_blank">
             <img
               class="grayscale"
               alt="Epic war"
