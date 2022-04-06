@@ -262,7 +262,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 28px 12px;
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
+    background: #191919;
 }
 
 .navbar-brand {
@@ -806,6 +807,15 @@ body {
     padding: 20px;
 }
 
+.text a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: DM Sans,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 1024px) {
     .navbar {
         flex-direction: column;
@@ -1087,6 +1097,18 @@ body {
     .triple-item img {
         transform: scale(0.7);
     }
+
+    .text img {
+        width: 50px;
+        transform: scale(1);
+    }
+
+    .text a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 600px) and (max-height: 700px) {
@@ -1104,11 +1126,10 @@ body {
     }
 }
 
-.text a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    font-family: DM Sans,sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+.announcement {
+    background: #00E0FF50
+}
+
+.opinion {
+    background: #F7C74550
 }
