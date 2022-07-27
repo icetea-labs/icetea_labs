@@ -2,7 +2,7 @@
   <div class="news">
     <div class="top-news">
       <div class="top-news__image">
-        <img alt src="news/top-new.png" @click="goTo" />
+        <img alt src="https://gamefi-public.s3.amazonaws.com/accelerator.png" @click="goTo" />
       </div>
       <div class="top-news__detail">
         <div :class="`top-news__detail--type ${type.toLowerCase()}`">
