@@ -575,7 +575,7 @@
       <a
         class="program-btn"
         target="_blank"
-        href="https://docs.google.com/forms/d/e/1FAIpQLScR2mVPdD6oiqwhl_3HpSoELMmQqYeUefdIJmDeghHjwdFGRw/viewform"
+        href="https://bit.ly/3IV43J0"
       >
         Apply now
         <img alt src="images/arrow_right.svg" />
