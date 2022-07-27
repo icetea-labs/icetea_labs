@@ -93,10 +93,9 @@ export default {
     return {
       tab: "all",
       type: "Announcement",
-      title:
-        "Hashed And Icetea Labs Join Forces Towards A Common Goal In GameFi And Metaverse",
-      date: "FRI 02/11",
-      info: "Hashed and Icetea Labs, as strategic partners, will co-build a self-sustainable, interoperable, open metaverse and GameFi ecosystem in the long run.",
+      title: "Introducing the Icetea Labs accelerator program",
+      date: "Thu 28/07",
+      info: "Introducing the Icetea Labs accelerator program",
       news,
       page: 1,
     };
