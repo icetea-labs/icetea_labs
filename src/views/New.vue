@@ -248,6 +248,9 @@ export default {
       };
     },
     getImageLink() {
+      if (this.image && this.image.startsWith("https://")) {
+        return this.image;
+      }
       return window.location.origin + "/" + this.image;
     },
     getMetadata() {

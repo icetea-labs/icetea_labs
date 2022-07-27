@@ -95,7 +95,7 @@ export default {
       type: "Announcement",
       title: "Introducing the Icetea Labs accelerator program",
       date: "Thu 28/07",
-      info: "Introducing the Icetea Labs accelerator program",
+      info: "Icetea Labs Accelerator Program (ILAP) is the 08-week accelerator program that helps Web3 Startups in product/market fit, expansion, and growth.",
       news,
       page: 1,
     };
