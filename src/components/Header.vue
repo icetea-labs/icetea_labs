@@ -27,7 +27,7 @@
         <a href="#/news">Blog</a>
       </li>
       <li class="navbar-menu_item neon">
-        <a target="_blank" href="https://bit.ly/3IV43J0">Apply for Accelerator Program</a>
+        <a target="_blank" href="https://ilap.icetea.io/">Join Accelerator Program</a>
       </li>
     </ul>
     <button class="navbar-button">

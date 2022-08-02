@@ -569,8 +569,7 @@
     <!-- subscribe -->
     <div class="program">
       <p class="program-title">
-        Icetea Labs Startup <br />
-        Incubation Program
+        Icetea Labs Accelerator Program
       </p>
       <a
         class="program-btn"
