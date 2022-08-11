@@ -5,12 +5,12 @@
         <img alt src="https://gamefi-public.s3.amazonaws.com/accelerator.png" @click="goTo" />
       </div>
       <div class="top-news__detail">
-        <div :class="`top-news__detail--type ${type.toLowerCase()}`">
-          {{ type }}
+        <div :class="`top-news__detail--type ${first.type.toLowerCase()}`">
+          {{ first.type }}
         </div>
-        <div class="top-news__detail--title" @click="goTo">{{ title }}</div>
-        <div class="top-news__detail--date">{{ date }}</div>
-        <div class="top-news__detail--info">{{ info }}</div>
+        <div class="top-news__detail--title" @click="goTo">{{ first.title }}</div>
+        <div class="top-news__detail--date">{{ first.date }}</div>
+        <div class="top-news__detail--info">{{ first.short_info ?? first.intro }}</div>
       </div>
     </div>
     <div class="news-tab">
@@ -92,11 +92,12 @@ export default {
   data() {
     return {
       tab: "all",
-      type: "Announcement",
-      title: "Introducing the Icetea Labs accelerator program",
-      date: "Thu 28/07",
-      info: "Icetea Labs Accelerator Program (ILAP) is the 08-week accelerator program that helps Web3 Startups in product/market fit, expansion, and growth.",
+      // type: "Announcement",
+      // title: "Introducing the Icetea Labs accelerator program",
+      // date: "Thu 28/07",
+      // info: "Icetea Labs Accelerator Program (ILAP) is the 08-week accelerator program that helps Web3 Startups in product/market fit, expansion, and growth.",
       news,
+      first: {},
       page: 1,
     };
   },
@@ -104,13 +105,16 @@ export default {
     filteredNews() {
       switch (this.tab) {
         case "announcement":
-          return this.news.filter((n) => n.type === "Announcement");
+          return this.news.filter((n) => n.show && n.type === "Announcement");
         case "opinion":
-          return this.news.filter((n) => n.type === "Opinion");
+          return this.news.filter((n) => n.show && n.type === "Opinion");
         case "all":
         default:
-          return this.news;
+          return this.news.filter((n) => n.show);
       }
+    },
+    first() {
+      return this.news.find((n) => n.show);
     },
     totalPage() {
       return Math.ceil(this.filteredNews.length / 9);
@@ -121,7 +125,7 @@ export default {
   },
   methods: {
     goTo() {
-      this.$router.push("/news/1");
+      this.$router.push(`/news/${this.first.id}`);
     },
     prev() {
       if (this.page > 1) this.page--;

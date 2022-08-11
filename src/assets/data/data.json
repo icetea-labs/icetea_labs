@@ -45,7 +45,8 @@
       "JOIN US NOW TO SHAPE THE FUTURE OF WEB3 TOGETHER!"
     ],
     "link": [],
-    "tags": ["Accelerator", "Web3"]
+    "tags": ["Accelerator", "Web3"],
+    "show": false
   },
   {
     "id": "2",
@@ -67,7 +68,8 @@
       "Icetea Labs is a notable gaming and metaverse incubator and enabler in Asia - the world's most exciting blockchain gaming and metaverse community. Operating two of the best performing launchpads, GameFi.org and Red Kite, Icetea Labs has advised, strategically invested, and launched many high profile games and metaverses such as Bloktopia, Sidus, Solice, etc. Icetea Labs also owns Mirai game studio, and is working closely with several industry-leading partners on critical gaming and metaverse initiatives."
     ],
     "link": [],
-    "tags": ["Infrastructure", "Partnership"]
+    "tags": ["Infrastructure", "Partnership"],
+    "show": true
   },
   {
     "id": "3",
@@ -92,7 +94,8 @@
       "All investment strategies and decisions involve the risk of loss. Nothing contained in the above article or in this website should be interpreted as investment advice."
     ],
     "link": ["https://twitter.com/Icetea_Labs"],
-    "tags": ["Metaverse", "Solana", "Investment"]
+    "tags": ["Metaverse", "Solana", "Investment"],
+    "show": true
   },
   {
     "id": "4",
@@ -114,6 +117,7 @@
       "Icetea Labs is currently working as a strategic consultant for many famous projects, such as GameFi, Red Kite, Faraland, Deathroad, Metawars, Wonder Hero, Dreams Quest, Warena, Mymasterwar, ASPO World, etc."
     ],
     "link": [],
-    "tags": ["Filecoin", "Partnership"]
+    "tags": ["Filecoin", "Partnership"],
+    "show": true
   }
 ]
