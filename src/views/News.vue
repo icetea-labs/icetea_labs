@@ -2,7 +2,7 @@
   <div class="news">
     <div class="top-news">
       <div class="top-news__image">
-        <img alt src="https://gamefi-public.s3.amazonaws.com/accelerator.png" @click="goTo" />
+        <img alt :src="first.image" @click="goTo" />
       </div>
       <div class="top-news__detail">
         <div :class="`top-news__detail--type ${first.type.toLowerCase()}`">
@@ -10,7 +10,7 @@
         </div>
         <div class="top-news__detail--title" @click="goTo">{{ first.title }}</div>
         <div class="top-news__detail--date">{{ first.date }}</div>
-        <div class="top-news__detail--info">{{ first.short_info ?? first.intro }}</div>
+        <div class="top-news__detail--info">{{ first.short_info ? first.short_info : first.intro }}</div>
       </div>
     </div>
     <div class="news-tab">
@@ -97,9 +97,8 @@ export default {
       // date: "Thu 28/07",
       // info: "Icetea Labs Accelerator Program (ILAP) is the 08-week accelerator program that helps Web3 Startups in product/market fit, expansion, and growth.",
       news,
-      first: {},
-      page: 1,
-    };
+      page: 1
+    }
   },
   computed: {
     filteredNews() {
@@ -114,14 +113,14 @@ export default {
       }
     },
     first() {
-      return this.news.find((n) => n.show);
+      return this.news.find((n) => n.show === true);
     },
     totalPage() {
       return Math.ceil(this.filteredNews.length / 9);
     },
     computedNews() {
       return this.filteredNews.slice((this.page - 1) * 9, this.page * 9);
-    },
+    }
   },
   methods: {
     goTo() {
@@ -132,7 +131,7 @@ export default {
     },
     next() {
       if (this.page < this.totalPage) this.page++;
-    },
+    }
   },
 };
 </script>
