@@ -46,7 +46,8 @@
     ],
     "link": [],
     "tags": ["Accelerator", "Web3"],
-    "show": false
+    "show": false,
+    "highlight": true
   },
   {
     "id": "2",
@@ -69,7 +70,8 @@
     ],
     "link": [],
     "tags": ["Infrastructure", "Partnership"],
-    "show": true
+    "show": true,
+    "highlight": false
   },
   {
     "id": "3",
@@ -95,7 +97,8 @@
     ],
     "link": ["https://twitter.com/Icetea_Labs"],
     "tags": ["Metaverse", "Solana", "Investment"],
-    "show": true
+    "show": true,
+    "highlight": false
   },
   {
     "id": "4",
@@ -118,6 +121,7 @@
     ],
     "link": [],
     "tags": ["Filecoin", "Partnership"],
-    "show": true
+    "show": true,
+    "highlight": false
   }
 ]

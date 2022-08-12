@@ -113,7 +113,7 @@ export default {
       }
     },
     first() {
-      return this.news.find((n) => n.show === true);
+      return this.news.find((n) => n.show && n.highlight);
     },
     totalPage() {
       return Math.ceil(this.filteredNews.length / 9);
