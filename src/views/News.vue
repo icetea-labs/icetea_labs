@@ -1,6 +1,6 @@
 <template>
   <div class="news">
-    <div class="top-news">
+    <div class="top-news" v-if="first">
       <div class="top-news__image">
         <img alt :src="first.image" @click="goTo" />
       </div>
@@ -109,11 +109,11 @@ export default {
           return this.news.filter((n) => n.show && n.type === "Opinion");
         case "all":
         default:
-          return this.news.filter((n) => n.show === true);
+          return this.news.filter((n) => n.show);
       }
     },
     first() {
-      return this.news.find((n) => n.show === true && n.highlight === true);
+      return this.news.find((n) => n.show && n.highlight);
     },
     totalPage() {
       return Math.ceil(this.filteredNews.length / 9);

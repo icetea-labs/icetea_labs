@@ -47,7 +47,7 @@
     "link": [],
     "tags": ["Accelerator", "Web3"],
     "show": false,
-    "highlight": true
+    "highlight": false
   },
   {
     "id": "2",
@@ -71,7 +71,7 @@
     "link": [],
     "tags": ["Infrastructure", "Partnership"],
     "show": true,
-    "highlight": false
+    "highlight": true
   },
   {
     "id": "3",
