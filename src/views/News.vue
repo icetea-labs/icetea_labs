@@ -109,11 +109,11 @@ export default {
           return this.news.filter((n) => n.show && n.type === "Opinion");
         case "all":
         default:
-          return this.news.filter((n) => n.show);
+          return this.news.filter((n) => n.show === true);
       }
     },
     first() {
-      return this.news.find((n) => n.show && n.highlight);
+      return this.news.find((n) => n.show === true && n.highlight === true);
     },
     totalPage() {
       return Math.ceil(this.filteredNews.length / 9);
