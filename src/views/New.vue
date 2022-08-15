@@ -4,15 +4,15 @@
       <div :class="`type ${type.toLowerCase()}`">{{ type }}</div>
       <div class="title">{{ title }}</div>
       <div class="date">{{ date }}</div>
-      <div v-if="html" class="intro" v-html="intro"></div>
-      <p v-else class="intro">{{ intro }}</p>
+      <p class="intro">{{ intro }}</p>
       <div class="image">
         <img alt :src="image" />
       </div>
       <div class="hashtag">
         <span v-for="(hashtag, i) in hashtags" :key="i">#{{ hashtag }}</span>
       </div>
-      <p class="content" v-for="(p, i) in content" :key="i" v-html="p"></p>
+      <div class="content" v-if="html" v-html="content"></div>
+      <p v-else class="content" v-for="(p, i) in content" :key="i" v-html="p"></p>
       <div class="tag">
         TAGS: <span v-for="(tag, i) in tags" :key="i">{{ tag }}</span>
       </div>
@@ -181,7 +181,8 @@ export default {
       this.date = detail.date;
       this.image = detail.image;
       this.hashtags = detail.hashtags;
-      if (this.html) {
+      this.html = detail.html;
+      if (!this.html) {
         this.content = detail.content.map((text) => {
           const indices = [];
           const bolds = [];
@@ -230,12 +231,11 @@ export default {
           return finalText;
         });
       } else {
-        this.content = detail.content
+        this.content = detail.content.join("")
       }
 
       this.tags = detail.tags;
       this.intro = detail.short_intro ? detail.short_intro : detail.intro;
-      this.html = detail.html;
     }
 
     this.$emit("updateHead");
