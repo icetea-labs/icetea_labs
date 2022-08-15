@@ -4,7 +4,8 @@
       <div :class="`type ${type.toLowerCase()}`">{{ type }}</div>
       <div class="title">{{ title }}</div>
       <div class="date">{{ date }}</div>
-      <p class="intro">{{ intro }}</p>
+      <div v-if="html" class="intro" v-html="intro"></div>
+      <p v-else class="intro">{{ intro }}</p>
       <div class="image">
         <img alt :src="image" />
       </div>
@@ -150,6 +151,7 @@ export default {
       intro: "",
       content: [],
       tags: [],
+      html: false
     };
   },
   head: {
@@ -179,55 +181,61 @@ export default {
       this.date = detail.date;
       this.image = detail.image;
       this.hashtags = detail.hashtags;
-      this.content = detail.content.map((text) => {
-        const indices = [];
-        const bolds = [];
-        let textArr = text.split("");
+      if (this.html) {
+        this.content = detail.content.map((text) => {
+          const indices = [];
+          const bolds = [];
+          let textArr = text.split("");
 
-        for (let i = 0; i < text.length; i++) {
-          if (textArr[i] === '"' || textArr[i] === "“" || textArr[i] === "”")
-            indices.push(i);
-          if (textArr[i] === "\b") bolds.push(i);
-        }
-        let additionCharNo = 0;
-        indices.forEach((index, i) => {
-          if (i % 2 === 0) {
-            textArr.splice(index + additionCharNo, 0, "<i>");
-            additionCharNo += 3;
-          } else {
-            textArr.splice(index + additionCharNo, 0, "</i>");
-            additionCharNo += 4;
+          for (let i = 0; i < text.length; i++) {
+            if (textArr[i] === '"' || textArr[i] === "“" || textArr[i] === "”")
+              indices.push(i);
+            if (textArr[i] === "\b") bolds.push(i);
           }
-        });
-        let additionCharBoldNo = 0;
-        bolds.forEach((index, i) => {
-          if (i % 2 === 0) {
-            textArr.splice(index + additionCharBoldNo, 0, "<h2>");
-            additionCharBoldNo += 3;
-          } else {
-            textArr.splice(index + additionCharBoldNo, 0, "</h2>");
-            additionCharBoldNo += 4;
-          }
-        });
-        textArr = textArr.filter((text) => text != "\b");
-        let finalText = "";
-        finalText = textArr
-          .join("")
-          .replace(
-            "Twitter",
-            '<a href="https://twitter.com/Icetea_Labs">Twitter</a>'
-          );
-        finalText = textArr
-          .join("")
-          .replace(
-            "Eligible projects can apply here",
-            'Eligible projects can apply <a href="https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md">here</a>'
-          );
+          let additionCharNo = 0;
+          indices.forEach((index, i) => {
+            if (i % 2 === 0) {
+              textArr.splice(index + additionCharNo, 0, "<i>");
+              additionCharNo += 3;
+            } else {
+              textArr.splice(index + additionCharNo, 0, "</i>");
+              additionCharNo += 4;
+            }
+          });
+          let additionCharBoldNo = 0;
+          bolds.forEach((index, i) => {
+            if (i % 2 === 0) {
+              textArr.splice(index + additionCharBoldNo, 0, "<h2>");
+              additionCharBoldNo += 3;
+            } else {
+              textArr.splice(index + additionCharBoldNo, 0, "</h2>");
+              additionCharBoldNo += 4;
+            }
+          });
+          textArr = textArr.filter((text) => text != "\b");
+          let finalText = "";
+          finalText = textArr
+              .join("")
+              .replace(
+                  "Twitter",
+                  '<a href="https://twitter.com/Icetea_Labs">Twitter</a>'
+              );
+          finalText = textArr
+              .join("")
+              .replace(
+                  "Eligible projects can apply here",
+                  'Eligible projects can apply <a href="https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md">here</a>'
+              );
 
-        return finalText;
-      });
+          return finalText;
+        });
+      } else {
+        this.content = detail.content
+      }
+
       this.tags = detail.tags;
-      this.intro = detail.intro;
+      this.intro = detail.short_intro ? detail.short_intro : detail.intro;
+      this.html = detail.html;
     }
 
     this.$emit("updateHead");

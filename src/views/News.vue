@@ -10,7 +10,7 @@
         </div>
         <div class="top-news__detail--title" @click="goTo">{{ first.title }}</div>
         <div class="top-news__detail--date">{{ first.date }}</div>
-        <div class="top-news__detail--info">{{ first.short_info ? first.short_info : first.intro }}</div>
+        <div class="top-news__detail--info">{{ first.short_intro ? first.short_intro : first.intro }}</div>
       </div>
     </div>
     <div class="news-tab">
