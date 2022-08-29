@@ -584,7 +584,7 @@
         href="https://bit.ly/3IV43J0"
       >
         Apply now
-        <img alt src="images/arrow_right.svg" />
+        <img alt src="../assets/images/arrow_right.svg" />
       </a>
     </div>
   </section>
