@@ -1124,6 +1124,7 @@ body {
     .banner-ilap {
         height: calc(100vh - 52px);
         background: #01C7F4;
+        overflow: hidden;
     }
 }
 
