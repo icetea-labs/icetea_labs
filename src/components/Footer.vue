@@ -23,7 +23,7 @@
         <div class="subscribe">
           <div class="subscribe-title">
             Get the Latest in Your Inbox
-            <img alt src="images/underline.png"/>
+            <img alt src="../assets/images/underline.png"/>
           </div>
           <form id="subscribe" class="subscribe-form">
             <input type="email" name="EMAIL" placeholder="Enter your email" required/>
