@@ -1,6 +1,13 @@
 <template>
   <section class="home">
     <!-- hero -->
+    <div class="banner-ilap">
+      <picture>
+        <source srcset="../assets/images/ilap_website-banner_desktop.jpg" media="(min-width: 600px)" />
+        <source srcset="../assets/images/ilap_website-banner_mobile.jpg" />
+        <img style="width: 100%;" src="../assets/images/ilap_website-banner_mobile.jpg" alt="banner">
+      </picture>
+    </div>
     <div class="hero" id="hero">
       <div class="dot"></div>
       <div class="hero-background">
