@@ -816,6 +816,34 @@ body {
     font-size: 20px;
 }
 
+.banner-ilap {
+    position: relative;
+    font-family: 'Montserrat';
+}
+
+.banner-ilap a {
+    position: absolute;
+    padding: 0.9vw 1vw;
+    top: 50%;
+    left: 89%;
+    transform: translate(-50%, -50%);
+    background: #103874;
+    border-radius: 7.31374px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3vw;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    white-space: pre;
+}
+
+.banner-ilap a:hover {
+    background: #1565DD;
+    color: #FFFFFF;
+}
+
 @media screen and (max-width: 1024px) {
     .navbar {
         flex-direction: column;
@@ -1125,6 +1153,15 @@ body {
         height: calc(100vh - 52px);
         background: #01C7F4;
         overflow: hidden;
+    }
+
+    .banner-ilap a {
+        padding: 9px 10px;
+        top: 85vw;
+        left: 50%;
+        transform: translate(-50%, 0);
+        font-size: 16.3101px;
+        line-height: 20px;
     }
 }
 

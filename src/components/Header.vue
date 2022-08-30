@@ -26,9 +26,9 @@
       <li class="navbar-menu_item">
         <a href="#/news">Blog</a>
       </li>
-      <li class="navbar-menu_item neon">
+      <!-- <li class="navbar-menu_item neon">
         <a target="_blank" href="https://ilap.icetea.io/">Join Accelerator Program</a>
-      </li>
+      </li> -->
     </ul>
     <button class="navbar-button">
       <img alt class="closed" src="../assets/images/menu.svg"/>

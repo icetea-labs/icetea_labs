@@ -3,10 +3,11 @@
     <!-- hero -->
     <div class="banner-ilap">
       <picture>
-        <source srcset="../assets/images/ilap_website-banner_desktop.jpg" media="(min-width: 600px)" />
-        <source srcset="../assets/images/ilap_website-banner_mobile.jpg" />
-        <img style="width: 100%;" src="../assets/images/ilap_website-banner_mobile.jpg" alt="banner">
+        <source srcset="../assets/images/ilap_website-banner_desktop.svg" media="(min-width: 601px)" />
+        <source srcset="../assets/images/ilap_website-banner_mobile.svg" />
+        <img style="width: 100%;" src="../assets/images/ilap_website-banner_mobile.svg" alt="banner">
       </picture>
+      <a data-v-61dd7a3d="" target="_blank" href="https://ilap.icetea.io/">register now</a>
     </div>
     <div class="hero" id="hero">
       <div class="dot"></div>
