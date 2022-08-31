@@ -7,7 +7,7 @@
         <source srcset="../assets/images/ilap_website-banner_mobile.svg" />
         <img style="width: 100%;" src="../assets/images/ilap_website-banner_mobile.svg" alt="banner">
       </picture>
-      <a data-v-61dd7a3d="" target="_blank" href="https://ilap.icetea.io/">register now</a>
+      <a data-v-61dd7a3d="" target="_blank" href="https://ilap.icetea.io/">Join now</a>
     </div>
     <div class="hero" id="hero">
       <div class="dot"></div>
