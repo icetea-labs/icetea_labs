@@ -476,6 +476,17 @@ h1 {
   margin: 0 16px;
 }
 
+::v-deep .link-ref {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+::v-deep .link-ref:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 600px) {
   .new {
     padding: 24px;
