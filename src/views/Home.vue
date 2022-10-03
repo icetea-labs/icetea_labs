@@ -153,7 +153,7 @@
             <img
               class="grayscale"
               alt="metacity"
-              src="../assets/images/metacity.png"
+              src="../assets/images/vanilla.png"
             />
           </a>
         </div>
