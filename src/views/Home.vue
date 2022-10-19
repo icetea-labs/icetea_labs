@@ -138,7 +138,7 @@
             <img
               class="grayscale"
               alt="Mirai Studio"
-              src="../assets/images/mirai.jpg"
+              src="../assets/images/mirai.png"
             />
           </a>
         </div>
@@ -195,7 +195,7 @@
           </a>
         </div>
         <div class="triple-item pointer">
-          <a href="" target="_blank">
+          <a href="https://www.securichain.io/" target="_blank">
             <img
               class="grayscale"
               alt="securichain"
