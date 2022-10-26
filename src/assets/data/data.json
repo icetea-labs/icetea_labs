@@ -2,6 +2,30 @@
   {
     "id": "1",
     "type": "Announcement",
+    "title": "Startup Story: 15 minutes with Julio Kosta - the Founder of Victory Point",
+    "date": "We 26/10",
+    "image": "news/julio_kotas_speak.png",
+    "hashtags": [],
+    "short_intro": "",
+    "intro": "",
+    "html": true,
+    "content": [
+      "<p><iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/episode/49scVDCchpa6tt9e7otl3o?utm_source=generator&theme=0\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe></p>",
+      "<p>Victory Point currently has a strong user base with a high percentage of hard-core fans. Sharing about the achievement of a well-built community, Julio Kosta - the Co-Founder and CEO of Victory Points said that &ldquo;We have a quick and short marketing campaign, priority on discord, from there we start growing our Twitter account and Telegram account, right now we have over 40.000 members across them&rdquo;, &ldquo;5.000 of them are more active and 1.000 to 2.000 of them are hard-core fans of Victory Points&rdquo;.</p>",
+      "<p>Julio Kosta is proud to have a team with significant experience in the FPS field. Besides, a strength of Victory Points has a healthy and balanced economy designed in the game - which is the key to remain sustainable and long-run development of the project. He understands that in Web2, the gameplay is the key, but in Web3, gameplay and game economy are equally crucial.</p>",
+      "<p>About the Icetea Labs Accelerator Program, Julio Kosta chose to join this cohort because of the reputation and the good name of Icetea Labs in this market. &ldquo;We find some of the largest Web3 participants in ILAP such as Hashed, Protocol Labs, Saison Capital, Spark Capital, etc&rdquo;. He also hopes to meet other Web3 builders on Demo Day at Miracle Block 2022 as he thinks they all have the same objective to bring the adoption to Web3, especially in Web3 gaming.</p>",
+      "<p>Check the audio to know more interesting things about Victory Points - the top 06 projects in ILAP.&nbsp;</p>",
+      "<p>Also, don&rsquo;t miss the next episode of Startup Story: 15 minutes with ILAP top projects. See you next week!</p>",
+      "<p>Follow&nbsp;<a href=\"https://twitter.com/Icetea_Labs\">Icetea Labs </a>Twitter and our&nbsp;<a href=\"https://t.me/ILAP_Announcement\">Telegram official channel</a> to get the latest updates!</p>"
+    ],
+    "link": [],
+    "tags": ["Accelerator", "Web3"],
+    "show": true,
+    "highlight": false
+  },
+  {
+    "id": "2",
+    "type": "Announcement",
     "title": "Introducing the Icetea Labs accelerator program",
     "date": "Mon 15/08",
     "image": "https://i.imgur.com/SxRkvor.png",
@@ -46,7 +70,7 @@
     "highlight": false
   },
   {
-    "id": "2",
+    "id": "3",
     "type": "Announcement",
     "title": "Hashed And Icetea Labs Join Forces Towards A Common Goal In GameFi And Metaverse",
     "date": "FRI 02/11",
@@ -70,7 +94,7 @@
     "highlight": false
   },
   {
-    "id": "3",
+    "id": "4",
     "type": "Opinion",
     "title": "Why We Invest: Solice - The first VR metaverse platform on Solana",
     "date": "FRI 02/17",
@@ -97,7 +121,7 @@
     "highlight": false
   },
   {
-    "id": "4",
+    "id": "5",
     "type": "Announcement",
     "title": "Icetea Labs Partners with Filecoin for Greater Decentralization and Asset Integrity in Open Metaverse",
     "date": "TUE 03/08",
@@ -121,7 +145,7 @@
     "highlight": false
   },
   {
-    "id": "5",
+    "id": "6",
     "type": "Announcement",
     "title": "INTRODUCING 06 FINALISTS IN ILAP - AUTUMN 2022 COHORT",
     "date": "Fri 23/09",
