@@ -1,30 +1,5 @@
 [
   {
-    "id": "1",
-    "type": "Announcement",
-    "title": "Startup Story: 15 minutes with representatives of Hashbon Pass",
-    "date": "Fri 18/11",
-    "image": "news/teddy_phan_speak.jpg",
-    "hashtags": [],
-    "short_intro": "",
-    "intro": "",
-    "html": true,
-    "content": [
-      "<p>Coming to ILAP&apos;s Startup Story: 15 minutes sharing session, we are pleased to have three representatives from Hashbon Pass join with us: Yuri Golosovker - COO, Andrey Svininnikov - Head of Business and Daniil Inasov - Business Development Facilitator. They are confident that their product is the world&apos;s first anonymous KYC.</p>",
-      "<p>Daniil - Business development of Hashbon Pass shared the vision of the project &ldquo;In terms o\"<p>f potential, one of the big things we are hoping has been passed and it&rsquo;s the standard for online KYC verification&rdquo;, &ldquo;Government regulations will obligate us to have KYC and AML and it&rsquo;s going to be a must and we are one of those solutions that aggregate current KYC solution&rdquo;.</p>",
-      "<p>He also suggested this project&apos;s community-building strategy. It was thought that the community came after the product. However, over time, they realized that they needed to show the community what they were doing, and how their products got better day by day. Community is the most important thing to all the projects.</p>",
-      "<p>The representative had explored the Icetea Labs Accelerator Program on Linkedin and decided to join when he saw ILAP mentors. &ldquo;ILAP has been on board many best advisors that help with knowing who you are and what you do&rdquo;, &ldquo;The biggest expectation we have is to have a mass adoption because if all of the projects become easier to use and concentrate on community, more people will come to Web3&rdquo; - Daniil said.</p>",
-      "<p>Check the audio to know more interesting things about Hashbon Pass - the top 06 projects in ILAP.&nbsp;</p>",
-      "<iframe width=\"100%\" height=\"450\" src=\"https://www.youtube.com/embed/rTC3pC7cL7U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-      "<p>Also, don&rsquo;t miss the next episode of Startup Story: 15 minutes with ILAP top projects. See you!</p>",
-      "<p>Follow <a href=\"https://twitter.com/Icetea_Labs\">Icetea Labs Twitter</a> and our <a href=\"https://t.me/ILAP_Announcement\">Telegram official channel</a> to get the latest updates!</p>"
-    ],
-    "link": [],
-    "tags": ["Accelerator", "Web3"],
-    "show": true,
-    "highlight": false
-  },
-  {
     "id": "2",
     "type": "Announcement",
     "title": "Startup Story: 15 minutes with Teddy Phan - the CEO of Eternal Glory",
