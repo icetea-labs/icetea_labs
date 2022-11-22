@@ -1,5 +1,30 @@
 [
   {
+    "id": "1",
+    "type": "Announcement",
+    "title": "Startup Story: 15 minutes with representatives of Hashbon Pass",
+    "date": "Fri 18/11",
+    "image": "news/hasbon_speaker.jpg",
+    "hashtags": [],
+    "short_intro": "",
+    "intro": "",
+    "html": true,
+    "content": [
+      "<p>Coming to ILAP&apos;s Startup Story: 15 minutes sharing session, we are pleased to have three representatives from Hashbon Pass join with us: Yuri Golosovker - COO, Andrey Svininnikov - Head of Business and Daniil Inasov - Business Development Facilitator. They are confident that their product is the world&apos;s first anonymous KYC.</p>",
+      "<p>Daniil - Business development of Hashbon Pass shared the vision of the project &ldquo;In terms o\"<p>f potential, one of the big things we are hoping has been passed and it&rsquo;s the standard for online KYC verification&rdquo;, &ldquo;Government regulations will obligate us to have KYC and AML and it&rsquo;s going to be a must and we are one of those solutions that aggregate current KYC solution&rdquo;.</p>",
+      "<p>He also suggested this project&apos;s community-building strategy. It was thought that the community came after the product. However, over time, they realized that they needed to show the community what they were doing, and how their products got better day by day. Community is the most important thing to all the projects.</p>",
+      "<p>The representative had explored the Icetea Labs Accelerator Program on Linkedin and decided to join when he saw ILAP mentors. &ldquo;ILAP has been on board many best advisors that help with knowing who you are and what you do&rdquo;, &ldquo;The biggest expectation we have is to have a mass adoption because if all of the projects become easier to use and concentrate on community, more people will come to Web3&rdquo; - Daniil said.</p>",
+      "<p>Check the audio to know more interesting things about Hashbon Pass - the top 06 projects in ILAP.&nbsp;</p>",
+      "<iframe width=\"100%\" height=\"450\" src=\"https://www.youtube.com/embed/rTC3pC7cL7U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "<p>Also, don&rsquo;t miss the next episode of Startup Story: 15 minutes with ILAP top projects. See you!</p>",
+      "<p>Follow <a href=\"https://twitter.com/Icetea_Labs\">Icetea Labs Twitter</a> and our <a href=\"https://t.me/ILAP_Announcement\">Telegram official channel</a> to get the latest updates!</p>"
+    ],
+    "link": [],
+    "tags": ["Accelerator", "Web3"],
+    "show": true,
+    "highlight": false
+  },
+  {
     "id": "2",
     "type": "Announcement",
     "title": "Startup Story: 15 minutes with Teddy Phan - the CEO of Eternal Glory",
@@ -311,5 +336,66 @@
     "tags": ["Filecoin", "Partnership"],
     "show": true,
     "highlight": false
+  },
+  {
+    "id": "9",
+    "type": "Announcement",
+    "title": "INTRODUCING 06 FINALISTS IN ILAP - AUTUMN 2022 COHORT",
+    "date": "Fri 23/09",
+    "image": "https://i.imgur.com/f0G78Mj.png",
+    "hashtags": [],
+    "short_intro": "Icetea Labs Accelerator Program (ILAP - Autumn 2022 Cohort) is organized to support Web3 Startups and move Web3 forward. Together meet our top 06 Startups chosen from 250+ applications!",
+    "intro": "INTRODUCING 06 FINALISTS IN ILAP - AUTUMN 2022 COHORT",
+    "html": true,
+    "content": [
+      "<p><b>Icetea Labs Accelerator Program (ILAP - Autumn 2022 Cohort)</b> is organized to support Web3 Startups and move Web3 forward together. 06 finalists chosen from 250+ applications will join us in the 08-week accelerator program.</p>",
+      "<p>Through the intensive 08-week bootcamp, our Head Mentors will closely accompany the projects. Many activities are exclusively organized for the top finalists: intensive workshops with specific topics for learning from experts, Tea Talk with our Partners and Mentors to build strong networking, Mentoring 1on1 with Head Mentors, etc. Significantly, the Demo Day will be specially organized on the biggest event of IceTea Labs this November - the Miracle event.</p>",
+      "<p>We are thrilled to share details of the 06 Startups joining ILAP - Autumn 2022 Cohort. Together meet our top 06 Startups:</p>",
+
+      "<p><br /></p>",
+      "<p><b>VICTORY POINT</b></p>",
+      "<div class=\"image\"><img width=\"800px\" alt=\"\" src=\"https://i.imgur.com/3HYO1uW.png\"/></div>",
+      "<p><b>Victory Point</b> is an AAA-rated, Free-to-Play (F2P), Play-to-Earn (P2E), Multiplayer, First Person Shooter (FPS) game built on Unreal Engine and powered by blockchain and NFTs. Victory Point is the first game to adopt a zero-sum-game reward system with the focus on retaining a long-term, healthy and sustainable economy within its ecosystem. The game was initially intended to release only on PC via Steam and Epic Games as a web2 game (previously titled Hind Warfare).</p>",
+      "<p><b>Victory Point website:</b> <a class=\"link-ref\" href=\"https://victorypoint.io/\">https://victorypoint.io/</a></p>",
+
+      "<p><br /></p>",
+      "<p><b>TOONFT</b></p>",
+      "<div class=\"image\"><img width=\"800px\" alt=\"\" src=\"https://i.imgur.com/h9658n8.png\"/></div>",
+      "<p><b>TooNFT</b> is an unprecedented blockchain-based platform that will revolutionize the WebToon industry by creating an innovative, next-generation NFT ecosystem. TooNFT strives to establish a decentralized WebToon market through implementing a transparent compensation system based on blockchain technology. Through the utilization of cutting-edge technological advancements like smart contracts and NFTs, the TooNFT team discovered an opportunity to eliminate the role of middlemen and create a transformed decentralized WebToon ecosystem with features such as transparency, fairness, and a focus on creators and consumers.</p>",
+      "<p><b>TooNFT website:</b> <a class=\"link-ref\" href=\"https://toonft.com/\">https://toonft.com/</a></p>",
+
+      "<p><br /></p>",
+      "<p><b>YOOLDO | TROUBLE PUNK</b></p>",
+      "<div class=\"image\"><img width=\"800px\" alt=\"\" src=\"https://i.imgur.com/bah7ra0.png\"/></div>",
+      "<p><b>Yooldo</b> is an X-to-Earn game content platform which will have tokenomics optimized for the content provided by each game, and which the form of Earn also vary from game to game.</p>",
+      "<p><b>Trouble Punk | Cyber Galz</b>, the first game on the Yooldo platform, is a fighting action game of the battle royale genre. Users can collect points dropped in the game to win in a limited time. Users need to beat off as many opponents as possible while trying to earn as many points as they can. They used the Unity engine for the development, they adopted a client execution method rather than a web app-based method for in-game functions and controls. Trouble Punk will be released for PC upon the launch, and the mobile version is being considered to be available later.</p>",
+      "<p><b>Yooldo website:</b> <a class=\"link-ref\" href=\"https://www.yooldo.gg/\">https://www.yooldo.gg/</a></p>",
+      "<p><b>Trouble Punk | Cyber Galz website:</b> <a class=\"link-ref\" href=\"https://troublepunk.com/web3/\">https://troublepunk.com/web3/</a></p>",
+
+      "<p><br /></p>",
+      "<p><b>GUMMYS</b></p>",
+      "<div class=\"image\"><img width=\"800px\" alt=\"\" src=\"https://i.imgur.com/QUOQlPO.png\"/></div>",
+      "<p><b>Gummys</b> is a new income opportunity for content creators and users. Create, own, earn is our paradigm. Users can earn by making content, minting videos as NFT, watching videos, engaging with content creators, and more actions. Through Gummys privacy measures, users have peace of mind knowing that they do not need to worry about their data being sold to third parties or a data bridge as they only need a blockchain public address to use the platform. Gummys will use the grant for the development of key features of the platform like storing video metadata on the blockchain making the platform censorship-resistant and minting video as NFT.</p>",
+      "<p><b>Gummies website:</b> <a class=\"link-ref\" href=\"https://www.gummys.io/\">https://www.gummys.io/</a></p>",
+
+      "<p><br /></p>",
+      "<p><b>HASHBON PASS</b></p>",
+      "<div class=\"image\"><img width=\"800px\" alt=\"\" src=\"https://i.imgur.com/yB3uP7r.png\"/></div>",
+      "<p><b>Hashbon Pass</b> NFT Passport, or by Hashbon FiRe is an NFT and a decentralized protocol for reusable identity verification on blockchains such as Ethereum, BNB Chain, Polygon, and other EVM-compatible networks. Their protocol involves the participation of three parties: Verifiers, Users, DeFi protocols that require user identification</p>",
+      "<p><b>Hashbon Pass website:</b> <a class=\"link-ref\" href=\"https://pass.hashbon.com/\">https://pass.hashbon.com/</a></p>",
+
+      "<p><br /></p>",
+      "<p><b>ETERNAL GLORY</b></p>",
+      "<div class=\"image\"><img width=\"800px\" alt=\"\" src=\"https://i.imgur.com/KbkPryb.png\"/></div>",
+      "<p><b>Eternal Glory</b> is a Multichain GameFi platform with distinguished reward balance mechanism and economic system to ensure a fair environment. It is backed by IEC - one of the Top 7 Game Studio in South East Asia, with 600M+ downloads Worldwide. Eternal Glory is a multiverse that is made up of many realms. Each realm in Eternal Glory is designed to have unique gameplay mechanics and each NFT is designed to have different skill sets and different use cases once they set foot into a new realm. Players can endlessly travel between different realms, uncover hidden treasure, unlock new game modes to achieve ultimate glory.</p>",
+      "<p><b>Eternal Glory website:</b> <a class=\"link-ref\" href=\"https://eternalglory.io/\">https://eternalglory.io/</a></p>",
+
+      "<p>Our mission is to try our best to support the Web3 Startups, especially Web3 Startups joining ILAP, scale and thrive through our ecosystems, networking, and deep experience in this industry. The ILAP kick-off event successfully took place at <b>10:00 UTC on September 23</b> with the participation of the representatives of top 06 finalists, trio organizers, mentors, and our partners, marking a good inauguration.</p>",
+      "<p><b>Let’s co-create lasting impact with Web3 together!</b></p>"
+    ],
+    "link": [],
+    "tags": ["Accelerator", "Web3"],
+    "show": true,
+    "highlight": true
   }
 ]
