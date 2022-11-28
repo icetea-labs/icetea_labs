@@ -2,6 +2,46 @@
   {
     "id": "1",
     "type": "Announcement",
+    "title": "ILAP CYBER MONDAY GRANTS",
+    "date": "Mon 28/11",
+    "image": "news/official_announcement.jpg",
+    "hashtags": [],
+    "short_intro": "",
+    "intro": "",
+    "html": true,
+    "content": [
+      "<p>On the occasion of Cyber Monday, we are glad to open ILAP Cyber Monday Grants as special support for all the Web3 projects in ILAP. This program is open to all the Web3 projects that applied to ILAP and haven&apos;t received ILAP partner&apos;s grants before. We will randomly select 10 lucky projects from the projects applying to ILAP Cyber Monday Grants to receive grants from our supportive partners: Amazon Web Services (AWS), GameFi.org, NodeReal, Miracle Block, Desports, and Metaforce.</p>",
+      "<p>I. TOTAL BENEFITS&nbsp;</p>",
+      "<p>Total benefits up to $100.000&nbsp;</p>",
+      "<p>Total slot: 10 Web3 projects</p>",
+      "<p>10 lucky Web3 projects will be selected to receive special grants from ILAP partners Amazon Web Services (AWS), GameFi.org, NodeReal, Miracle Block, Desports, and Metaforce.</p>",
+      "<p><img src=\"news/top_benefits.jpg\" width=\"100%\" /></p>",
+      "<p>+ AWS: $5000 AWS Credits (AWS Activate program: https://aws.amazon.com/activate/)</p>",
+      "<p>T&amp;C: Each Web3 startup&apos;s credits eligibility in the Activate program will be subject to its history of credits with AWS</p>",
+      "<p>+ NodeReal: Up to 35% discount on Growth Pl<a href=\"http://gamefi.org/\">an.</a></p>",
+      "<p><a href=\"http://gamefi.org/\">+&nbsp;Game</a>Fi.org: Up to 20% discount on Player Attraction + Marketing Package</p>",
+      "<p>+ Miracle Block (Eco Ticket): 1 Free Ticket and 1 Ticket 50% discount&nbsp;</p>",
+      "<p>+ Metaforce: $2000 Treasure Hunt Event Credit for To<a href=\"http://desport.gg/\">p 10</a></p>",
+      "<p><a href=\"http://desport.gg/\">+&nbsp;DEs</a>port.gg: Essential Package: $2000 *For a game with testnet*&nbsp;</p>",
+      "<p>II. KEY MILESTONES</p>",
+      "<p>The ILAP Cyber Monday Grants will officially start from 10:00 UTC AM on November 28 to 10:00 UTC AM on December 08, 2022.</p>",
+      "<p>III. GUIDELINES TO APPLY ILAP CYBER MONDAY GRANTS</p>",
+      "<p><img src=\"news/application_guidelines.jpg\" width=\"100%\" /></p>",
+      "<p>All the ILAP applicants who want to apply to ILAP Cyber Monday Grants just need to complete some simple steps below:</p>",
+      "<p>Step 01: Sign up/ Sign in to <a href=\"https://metaforce.org/\">metaforce.org</a> with the referral code &ldquo;ILAPCYBER&rdquo;</p>",
+      "<p>Step 02: Click the &quot;Events&quot; section and find the &quot;ILAP MONDAY CYBER GRANTS&quot; event&nbsp;</p>",
+      "<p>Step 03: Click on the event and complete all the event tasks&nbsp;</p>",
+      "<p>Or sign in/ sign up and complete all the tasks at this link: <a href=\"https://metaforce.org/event/ilap-mini-event-2d9388569d\">https://metaforce.org/event/ilap-mini-event-2d9388569d</a></p>",
+      "<p>Remember that your application is only eligible once you have entered the exclusive referral code and completed all the tasks! Take your turn and be the lucky one!</p>"
+    ],
+    "link": [],
+    "tags": ["Accelerator", "Web3"],
+    "show": true,
+    "highlight": false
+  },
+  {
+    "id": "2",
+    "type": "Announcement",
     "title": "Startup Story: 15 minutes with representatives of Hashbon Pass",
     "date": "Fri 18/11",
     "image": "news/hasbon_speaker.jpg",
@@ -25,7 +65,7 @@
     "highlight": false
   },
   {
-    "id": "2",
+    "id": "3",
     "type": "Announcement",
     "title": "Startup Story: 15 minutes with Teddy Phan - the CEO of Eternal Glory",
     "date": "Wed 09/11",
@@ -48,7 +88,7 @@
     "highlight": false
   },
   {
-    "id": "3",
+    "id": "4",
     "type": "Announcement",
     "title": "ICETEA LABS ECOSYSTEM - OCTOBER REPORT",
     "date": "Mon 07/11",
@@ -193,7 +233,7 @@
     "highlight": false
   },
   {
-    "id": "4",
+    "id": "5",
     "type": "Announcement",
     "title": "Startup Story: 15 minutes with Julio Kosta - the Founder of Victory Point",
     "date": "Wed 26/10",
@@ -217,7 +257,7 @@
     "highlight": false
   },
   {
-    "id": "5",
+    "id": "6",
     "type": "Announcement",
     "title": "Introducing the Icetea Labs accelerator program",
     "date": "Mon 15/08",
@@ -236,7 +276,7 @@
       "<p>ILAP is open for any Web3 Startup whose product or service relates to gaming, metaverse, or NFT utilities. Startups at all stages benefit from the contents of ILAP. Early product startups with MVP will benefit the most that we can help with project audit, ecosystem network, security, business model, and go-to-market strategy. While the later stages project will enjoy advice mostly on marketing, community building, traction growth, funding, and tokenomics.</p>",
       "<p>It doesn’t matter where you come from. What world you’re building that counts.</p>",
       "<p><b>3. BENEFITS FOR WEB3 STARTUPS JOINING ILAP</b></p>",
-      "<div class=\"image\"><img width=\"800px\" alt=\"\" src=\"https://i.imgur.com/iFY6iE6.png\"/></div>",
+      "<div class=\"image\"><img width=\"100%\" alt=\"\" src=\"https://i.imgur.com/iFY6iE6.png\"/></div>",
       "<p>Web3 Startups who are selected to join the Accelerator program will receive a lot of attractive benefits:</p>",
       "<p><b><u>- Expertise</u></b>: Accessible to in-depth knowledge, mentors, experts, and global investors in Web3 Business.</p>",
       "<p><b><u>- Ecosystem</u></b>: Accessible to an entire ecosystem of Icetea Labs and its partners that supports a full product development and operation lifecycle.</p>",
@@ -249,7 +289,7 @@
       "<p><b>Step 03</b>: Successfully selected startups will enjoy ILAP’s mentorship and support during the 8 weeks program. (Selected candidates will be informed one week before the program starts and commit to spending at least 08 hours per week on its activities).</p>",
       "<p>After completing the 08-week program, the qualified Web3 Startups will present and pitch at Showcase Day with 40+ global investors, mentors, experts, and strategic partners!</p>",
       "<p><b>5. ILAP KEY MILESTONES</b></p>",
-      "<div class=\"image\"><img width=\"800px\" alt=\"\" src=\"https://i.imgur.com/MisXvHD.png\"/></div>",
+      "<div class=\"image\"><img width=\"100%\" alt=\"\" src=\"https://i.imgur.com/MisXvHD.png\"/></div>",
       "<p>Please mark your calendar the following dates:</p>",
       "<p>ILAP Application duration: <b>August 15, 2022 - August 31, 2022</b></p>",
       "<p>Shortlisted Interview: <b>September 01, 2022</b></p>",
@@ -263,7 +303,7 @@
     "highlight": false
   },
   {
-    "id": "6",
+    "id": "7",
     "type": "Announcement",
     "title": "Hashed And Icetea Labs Join Forces Towards A Common Goal In GameFi And Metaverse",
     "date": "FRI 02/11",
@@ -287,7 +327,7 @@
     "highlight": false
   },
   {
-    "id": "7",
+    "id": "8",
     "type": "Opinion",
     "title": "Why We Invest: Solice - The first VR metaverse platform on Solana",
     "date": "FRI 02/17",
@@ -314,7 +354,7 @@
     "highlight": false
   },
   {
-    "id": "8",
+    "id": "9",
     "type": "Announcement",
     "title": "Icetea Labs Partners with Filecoin for Greater Decentralization and Asset Integrity in Open Metaverse",
     "date": "TUE 03/08",
@@ -338,7 +378,7 @@
     "highlight": false
   },
   {
-    "id": "9",
+    "id": "10",
     "type": "Announcement",
     "title": "INTRODUCING 06 FINALISTS IN ILAP - AUTUMN 2022 COHORT",
     "date": "Fri 23/09",
@@ -354,19 +394,19 @@
 
       "<p><br /></p>",
       "<p><b>VICTORY POINT</b></p>",
-      "<div class=\"image\"><img width=\"800px\" alt=\"\" src=\"https://i.imgur.com/3HYO1uW.png\"/></div>",
+      "<div class=\"image\"><img width=\"100%\" alt=\"\" src=\"https://i.imgur.com/3HYO1uW.png\"/></div>",
       "<p><b>Victory Point</b> is an AAA-rated, Free-to-Play (F2P), Play-to-Earn (P2E), Multiplayer, First Person Shooter (FPS) game built on Unreal Engine and powered by blockchain and NFTs. Victory Point is the first game to adopt a zero-sum-game reward system with the focus on retaining a long-term, healthy and sustainable economy within its ecosystem. The game was initially intended to release only on PC via Steam and Epic Games as a web2 game (previously titled Hind Warfare).</p>",
       "<p><b>Victory Point website:</b> <a class=\"link-ref\" href=\"https://victorypoint.io/\">https://victorypoint.io/</a></p>",
 
       "<p><br /></p>",
       "<p><b>TOONFT</b></p>",
-      "<div class=\"image\"><img width=\"800px\" alt=\"\" src=\"https://i.imgur.com/h9658n8.png\"/></div>",
+      "<div class=\"image\"><img width=\"100%\" alt=\"\" src=\"https://i.imgur.com/h9658n8.png\"/></div>",
       "<p><b>TooNFT</b> is an unprecedented blockchain-based platform that will revolutionize the WebToon industry by creating an innovative, next-generation NFT ecosystem. TooNFT strives to establish a decentralized WebToon market through implementing a transparent compensation system based on blockchain technology. Through the utilization of cutting-edge technological advancements like smart contracts and NFTs, the TooNFT team discovered an opportunity to eliminate the role of middlemen and create a transformed decentralized WebToon ecosystem with features such as transparency, fairness, and a focus on creators and consumers.</p>",
       "<p><b>TooNFT website:</b> <a class=\"link-ref\" href=\"https://toonft.com/\">https://toonft.com/</a></p>",
 
       "<p><br /></p>",
       "<p><b>YOOLDO | TROUBLE PUNK</b></p>",
-      "<div class=\"image\"><img width=\"800px\" alt=\"\" src=\"https://i.imgur.com/bah7ra0.png\"/></div>",
+      "<div class=\"image\"><img width=\"100%\" alt=\"\" src=\"https://i.imgur.com/bah7ra0.png\"/></div>",
       "<p><b>Yooldo</b> is an X-to-Earn game content platform which will have tokenomics optimized for the content provided by each game, and which the form of Earn also vary from game to game.</p>",
       "<p><b>Trouble Punk | Cyber Galz</b>, the first game on the Yooldo platform, is a fighting action game of the battle royale genre. Users can collect points dropped in the game to win in a limited time. Users need to beat off as many opponents as possible while trying to earn as many points as they can. They used the Unity engine for the development, they adopted a client execution method rather than a web app-based method for in-game functions and controls. Trouble Punk will be released for PC upon the launch, and the mobile version is being considered to be available later.</p>",
       "<p><b>Yooldo website:</b> <a class=\"link-ref\" href=\"https://www.yooldo.gg/\">https://www.yooldo.gg/</a></p>",
@@ -374,19 +414,19 @@
 
       "<p><br /></p>",
       "<p><b>GUMMYS</b></p>",
-      "<div class=\"image\"><img width=\"800px\" alt=\"\" src=\"https://i.imgur.com/QUOQlPO.png\"/></div>",
+      "<div class=\"image\"><img width=\"100%\" alt=\"\" src=\"https://i.imgur.com/QUOQlPO.png\"/></div>",
       "<p><b>Gummys</b> is a new income opportunity for content creators and users. Create, own, earn is our paradigm. Users can earn by making content, minting videos as NFT, watching videos, engaging with content creators, and more actions. Through Gummys privacy measures, users have peace of mind knowing that they do not need to worry about their data being sold to third parties or a data bridge as they only need a blockchain public address to use the platform. Gummys will use the grant for the development of key features of the platform like storing video metadata on the blockchain making the platform censorship-resistant and minting video as NFT.</p>",
       "<p><b>Gummies website:</b> <a class=\"link-ref\" href=\"https://www.gummys.io/\">https://www.gummys.io/</a></p>",
 
       "<p><br /></p>",
       "<p><b>HASHBON PASS</b></p>",
-      "<div class=\"image\"><img width=\"800px\" alt=\"\" src=\"https://i.imgur.com/yB3uP7r.png\"/></div>",
+      "<div class=\"image\"><img width=\"100%\" alt=\"\" src=\"https://i.imgur.com/yB3uP7r.png\"/></div>",
       "<p><b>Hashbon Pass</b> NFT Passport, or by Hashbon FiRe is an NFT and a decentralized protocol for reusable identity verification on blockchains such as Ethereum, BNB Chain, Polygon, and other EVM-compatible networks. Their protocol involves the participation of three parties: Verifiers, Users, DeFi protocols that require user identification</p>",
       "<p><b>Hashbon Pass website:</b> <a class=\"link-ref\" href=\"https://pass.hashbon.com/\">https://pass.hashbon.com/</a></p>",
 
       "<p><br /></p>",
       "<p><b>ETERNAL GLORY</b></p>",
-      "<div class=\"image\"><img width=\"800px\" alt=\"\" src=\"https://i.imgur.com/KbkPryb.png\"/></div>",
+      "<div class=\"image\"><img width=\"100%\" alt=\"\" src=\"https://i.imgur.com/KbkPryb.png\"/></div>",
       "<p><b>Eternal Glory</b> is a Multichain GameFi platform with distinguished reward balance mechanism and economic system to ensure a fair environment. It is backed by IEC - one of the Top 7 Game Studio in South East Asia, with 600M+ downloads Worldwide. Eternal Glory is a multiverse that is made up of many realms. Each realm in Eternal Glory is designed to have unique gameplay mechanics and each NFT is designed to have different skill sets and different use cases once they set foot into a new realm. Players can endlessly travel between different realms, uncover hidden treasure, unlock new game modes to achieve ultimate glory.</p>",
       "<p><b>Eternal Glory website:</b> <a class=\"link-ref\" href=\"https://eternalglory.io/\">https://eternalglory.io/</a></p>",
 
