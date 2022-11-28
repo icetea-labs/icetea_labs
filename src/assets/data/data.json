@@ -6,7 +6,7 @@
     "date": "Mon 28/11",
     "image": "news/official_announcement.jpg",
     "hashtags": [],
-    "short_intro": "",
+    "short_intro": "We will randomly select 10 lucky projects from the projects applying to ILAP Cyber Monday Grants to receive grants from our supportive partners: Amazon Web Services (AWS), GameFi.org, NodeReal, Miracle Block, Desports.gg, and Metaforce.",
     "intro": "",
     "html": true,
     "content": [
@@ -37,7 +37,7 @@
     "link": [],
     "tags": ["Accelerator", "Web3"],
     "show": true,
-    "highlight": false
+    "highlight": true
   },
   {
     "id": "2",
@@ -436,6 +436,6 @@
     "link": [],
     "tags": ["Accelerator", "Web3"],
     "show": true,
-    "highlight": true
+    "highlight": false
   }
 ]
