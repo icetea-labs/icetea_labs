@@ -2,6 +2,29 @@
   {
     "id": "1",
     "type": "Announcement",
+    "title": "STARTUP STORY: 15 MINUTES WITH THE REPRESENTATIVES FROM YOOLDO | TROUBLE PUNK",
+    "date": "Tue 29/11",
+    "image": "news/taik_ki_speaker.jpg",
+    "hashtags": [],
+    "short_intro": "",
+    "intro": "",
+    "html": true,
+    "content": [
+      "<p>In this episode, we are glad to have Taik Ki (BlackCrunch) Yeo&nbsp;- CMO of Yooldo | Trouble Punk, and Hayang - Business Operation Lead of Yooldo | Trouble Punk join us to share more about the project.&nbsp;</p>",
+      "<p>Yooldo is an X-to-Earn game content platform that will have tokenomics optimized for the content provided by each game, and the form of Earn also varies from game to game. Trouble Punk | Cyber Galz, the first game on the Yooldo platform, is a fighting action game of the battle royale genre. Sharing the short-term plan for the next 03 months,&nbsp;Taik Ki (BlackCrunch) Yeo said, &quot;We are currently updating more characters and more maps within the game. We first had the Closed Beta Test a few months ago and got a lot of analytics and surveys from there. We have already fixed the bugs and issues in the first Beta test version. Additionally, we&rsquo;ll get more game modes and more enjoyment that users can play around with when the second Closed Beta Test releases. In the next three months, there will be a second Closed Beta version, and this second one will also open as well&rdquo;.</p>",
+      "<p>When being asked&nbsp;what impressed them the most when being a part of ILAP,&nbsp;&nbsp;Taik Ki (BlackCrunch) Yeo shared that&nbsp;&ldquo;The most amazing thing is that not only the mentors but also the speakers are really insightful with so many ideas they give from their experience in the past. They have already built successful products, and they have been in the market for several years. I have received a lot of helpful information and insights from them when building our product&rdquo;. Simultaneously, from Haya&rsquo;s point of view, &nbsp;&ldquo;I think this program is like a shark tank in the Web3 ecosystem. In addition to getting insights from mentors and speakers as BC mentioned, we also get a lot of support that could develop our projects like the technical AWS support or other exclusive packages from other ILAP partners. It gonna be a great help for the project builder in both the long term and short term as well. Therefore, I think the ILAP program understands what Web3 Startups want and how to support Web3 projects better. This really the most thing that impresses me a lot&rdquo;.</p>",
+      "<p>Check the audio to find out more interesting sharing from the representatives from Yooldo | Trouble Punk:</p>",
+      "<p><iframe width=\"100%\" height=\"450\" src=\"https://www.youtube.com/embed/IrOfOwXDLRk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></p>",
+      "<p>Follow&nbsp;<a href=\"https://twitter.com/Icetea_Labs\">Icetea Labs Twitter</a> and our&nbsp;<a href=\"https://t.me/ILAP_Announcement\">Telegram official channel</a> to get the latest updates!</p>"
+    ],
+    "link": [],
+    "tags": ["Accelerator", "Web3"],
+    "show": true,
+    "highlight": true
+  },
+  {
+    "id": "2",
+    "type": "Announcement",
     "title": "ILAP CYBER MONDAY GRANTS",
     "date": "Mon 28/11",
     "image": "news/official_announcement.jpg",
@@ -40,7 +63,7 @@
     "highlight": true
   },
   {
-    "id": "2",
+    "id": "3",
     "type": "Announcement",
     "title": "Startup Story: 15 minutes with representatives of Hashbon Pass",
     "date": "Fri 18/11",
@@ -65,7 +88,7 @@
     "highlight": false
   },
   {
-    "id": "3",
+    "id": "4",
     "type": "Announcement",
     "title": "Startup Story: 15 minutes with Teddy Phan - the CEO of Eternal Glory",
     "date": "Wed 09/11",
@@ -88,7 +111,7 @@
     "highlight": false
   },
   {
-    "id": "4",
+    "id": "5",
     "type": "Announcement",
     "title": "ICETEA LABS ECOSYSTEM - OCTOBER REPORT",
     "date": "Mon 07/11",
@@ -233,7 +256,7 @@
     "highlight": false
   },
   {
-    "id": "5",
+    "id": "6",
     "type": "Announcement",
     "title": "Startup Story: 15 minutes with Julio Kosta - the Founder of Victory Point",
     "date": "Wed 26/10",
@@ -257,7 +280,7 @@
     "highlight": false
   },
   {
-    "id": "6",
+    "id": "7",
     "type": "Announcement",
     "title": "Introducing the Icetea Labs accelerator program",
     "date": "Mon 15/08",
@@ -303,7 +326,7 @@
     "highlight": false
   },
   {
-    "id": "7",
+    "id": "8",
     "type": "Announcement",
     "title": "Hashed And Icetea Labs Join Forces Towards A Common Goal In GameFi And Metaverse",
     "date": "FRI 02/11",
@@ -327,7 +350,7 @@
     "highlight": false
   },
   {
-    "id": "8",
+    "id": "9",
     "type": "Opinion",
     "title": "Why We Invest: Solice - The first VR metaverse platform on Solana",
     "date": "FRI 02/17",
@@ -354,7 +377,7 @@
     "highlight": false
   },
   {
-    "id": "9",
+    "id": "10",
     "type": "Announcement",
     "title": "Icetea Labs Partners with Filecoin for Greater Decentralization and Asset Integrity in Open Metaverse",
     "date": "TUE 03/08",
@@ -378,7 +401,7 @@
     "highlight": false
   },
   {
-    "id": "10",
+    "id": "11",
     "type": "Announcement",
     "title": "INTRODUCING 06 FINALISTS IN ILAP - AUTUMN 2022 COHORT",
     "date": "Fri 23/09",
