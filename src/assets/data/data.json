@@ -2,6 +2,42 @@
   {
     "id": "1",
     "type": "Announcement",
+    "title": "MONTHLY REPORT INSIGHTS ON ICETEA LABS PRODUCTS IN DECEMBER",
+    "date": "Mon 09/01",
+    "image": "news/monthly_report_01.jpg",
+    "hashtags": [],
+    "short_intro": "",
+    "intro": "",
+    "html": true,
+    "content": [
+      "<p>GROWTH: STOP AND GO</p>",
+      "<p>Icetea Labs would like to announce a new initiative with the aim to support all Web3 projects in the early development stage:&nbsp;Icetea Labs Development Hub.&nbsp;</p>",
+      "<p><img src=\"news/monthly_report_01.jpg\" width=\"100%\"></p>",
+      "<p>Icetea Labs has an elite engineering team with actual combat experience in proof-of-concept, developing and operating products from Layer 1 blockchain to platforms and Dapps, such as GameFi.org, RedKite launchpad, Firebird chain, and Desports, etc. In addition, we have an ecosystem and a wide partner network to support visionary founders and energetic teams.&nbsp;</p>",
+      "<p>Simultaneously, Icetea Labs will become leaner and more efficient in 2023 by focusing on core products. Realizing that launchpads have become risky during the winter, even with a refund policy, we decide to focus on GameFi Party and IFO. GameFi Party and IFO are not only safe for the community, but also can bring awareness of users to games. The community will become our top priority. We need to think outside the box to strategically expand the community and bring benefits to millions of users.&nbsp;</p>",
+      "<p><img src=\"news/technical_stack.jpg\" width=\"100%\"></p>",
+      "<p>In short, we decide to focus on the main products and stop developing certain less crucial ones. 03 core products that Icetea Labs will mainly focus on in 2023 are Icetea Labs Development Hub, GameFi Party and IFO.&nbsp;</p>",
+      "<p>GAMEFI.ORG</p>",
+      "<p><img src=\"news/gamefi_involvement.jpg\" width=\"100%\"></p>",
+      "<p>This month, GameFi.org and BNB Chain co-hosted a special event when the new year is coming: Year-End Party. This holiday gaming event gathered all game players and Web3 enthusiasts. Accompanying this event were the participations of The Harvest, Koukuma, Monsterra, Xenna by SIDUS GATES, KingdomVerse, Undeads, and Elfin Kingdom.</p>",
+      "<p>Simultaneously, GameFi Party continuously updated with a new pool named:&nbsp;Syltare Airdrop and Battle Phase.</p>",
+      "<p>DESPORTS&nbsp;</p>",
+      "<p><img src=\"news/desport_leader_event.jpg\" width=\"100%\"></p>",
+      "<p>Desports team continued to improve and push out new features according to the feedback from users. This December, 02 PUBG Ladder events where users can earn endless cash from playing PUBG rank mode have been held. It promises to continue significantly more dynamic growth in the year ahead.</p>",
+      "<p>RED KITE</p>",
+      "<p><img src=\"news/redkite_ecosystem.jpg\" width=\"100%\"></p>",
+      "<p>Red Kite has kept focusing on supporting activities for ecosystem-related projects. This month, the whitelist campaign of BAGC and the airdrop event of ShopNEXT were conducted on the Red Kite launchpad.</p>",
+      "<p>2023 is coming and we would like to express our gratitude for your support throughout 2022. Wishing you a Happy New Year with the hope that you will have many blessings in the year to come and continue to accompany us!</p>",
+      "<p><img src=\"news/happy_new_year.jpg\" width=\"100%\"></p>"
+    ],
+    "link": [],
+    "tags": ["Accelerator", "Web3"],
+    "show": true,
+    "highlight": false
+  },
+  {
+    "id": "2",
+    "type": "Announcement",
     "title": "MONTHLY REPORT INSIGHTS - NOVEMBER 2022",
     "date": "Mon 05/12",
     "image": "news/icetea_monthly_report.jpg",
@@ -131,7 +167,7 @@
     "highlight": true
   },
   {
-    "id": "2",
+    "id": "3",
     "type": "Announcement",
     "title": "STARTUP STORY: 15 MINUTES WITH THE REPRESENTATIVES FROM YOOLDO | TROUBLE PUNK",
     "date": "Tue 29/11",
@@ -154,7 +190,7 @@
     "highlight": false
   },
   {
-    "id": "3",
+    "id": "4",
     "type": "Announcement",
     "title": "ILAP CYBER MONDAY GRANTS",
     "date": "Mon 28/11",
@@ -194,7 +230,7 @@
     "highlight": false
   },
   {
-    "id": "4",
+    "id": "5",
     "type": "Announcement",
     "title": "Startup Story: 15 minutes with representatives of Hashbon Pass",
     "date": "Fri 18/11",
@@ -219,7 +255,7 @@
     "highlight": false
   },
   {
-    "id": "5",
+    "id": "6",
     "type": "Announcement",
     "title": "Startup Story: 15 minutes with Teddy Phan - the CEO of Eternal Glory",
     "date": "Wed 09/11",
@@ -242,7 +278,7 @@
     "highlight": false
   },
   {
-    "id": "6",
+    "id": "7",
     "type": "Announcement",
     "title": "ICETEA LABS ECOSYSTEM - OCTOBER REPORT",
     "date": "Mon 07/11",
@@ -387,7 +423,7 @@
     "highlight": false
   },
   {
-    "id": "7",
+    "id": "8",
     "type": "Announcement",
     "title": "Startup Story: 15 minutes with Julio Kosta - the Founder of Victory Point",
     "date": "Wed 26/10",
@@ -411,7 +447,7 @@
     "highlight": false
   },
   {
-    "id": "8",
+    "id": "9",
     "type": "Announcement",
     "title": "Introducing the Icetea Labs accelerator program",
     "date": "Mon 15/08",
@@ -457,7 +493,7 @@
     "highlight": false
   },
   {
-    "id": "9",
+    "id": "10",
     "type": "Announcement",
     "title": "Hashed And Icetea Labs Join Forces Towards A Common Goal In GameFi And Metaverse",
     "date": "FRI 02/11",
@@ -481,7 +517,7 @@
     "highlight": false
   },
   {
-    "id": "10",
+    "id": "11",
     "type": "Opinion",
     "title": "Why We Invest: Solice - The first VR metaverse platform on Solana",
     "date": "FRI 02/17",
@@ -508,7 +544,7 @@
     "highlight": false
   },
   {
-    "id": "11",
+    "id": "12",
     "type": "Announcement",
     "title": "Icetea Labs Partners with Filecoin for Greater Decentralization and Asset Integrity in Open Metaverse",
     "date": "TUE 03/08",
@@ -532,7 +568,7 @@
     "highlight": false
   },
   {
-    "id": "12",
+    "id": "13",
     "type": "Announcement",
     "title": "INTRODUCING 06 FINALISTS IN ILAP - AUTUMN 2022 COHORT",
     "date": "Fri 23/09",
