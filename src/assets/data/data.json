@@ -7,7 +7,7 @@
     "image": "news/monthly_report_01.jpg",
     "hashtags": [],
     "short_intro": "",
-    "intro": "",
+    "intro": "This is the report for the whole Icetea Labs products this December. Icetea Labs would like to announce a new initiative to support all Web3 projects in the early development stage. In 2023, we will focus on the main products and stop developing certain less crucial ones.",
     "html": true,
     "content": [
       "<p><h2 style=\"font-weight: bold\">GROWTH: STOP AND GO</h2></p>",
@@ -33,7 +33,7 @@
     "link": [],
     "tags": ["Accelerator", "Web3"],
     "show": true,
-    "highlight": false
+    "highlight": true
   },
   {
     "id": "2",
