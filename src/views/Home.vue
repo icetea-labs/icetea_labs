@@ -288,264 +288,96 @@
       <h2 class="section-title">Selected Token Portfolio</h2>
       <div class="triple grid">
         <div class="triple-item pointer">
-          <a href="https://www.eof.gg/" target="_blank">
-            <img class="grayscale" alt="eof" src="../assets/images/eof.png" />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="hhttps://goe.gg/" target="_blank">
-            <img class="grayscale" alt="goe" src="../assets/images/goe.png" />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://theunfettered.io/" target="_blank">
+          <a href="https://aethergames.io" target="_blank">
             <img
-              class="grayscale"
-              alt="the unfettered"
-              src="../assets/images/unfettered.png"
-            />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://ertha.io/" target="_blank">
-            <img
-              class="grayscale"
-              alt="ertha"
-              src="../assets/images/ertha.png"
-            />
-          </a>
-        </div>
-        <!-- <div class="triple-item pointer">
-          <a href="https://quoth.ai/" target="_blank">
-            <img
-              class="grayscale"
-              alt="quoth"
-              src="../assets/images/quoth.png"
-            />
-          </a>
-        </div> -->
-        <div class="triple-item pointer">
-          <a href="https://froyo.games/" target="_blank">
-            <img
-              class="grayscale"
-              alt="froyo"
-              src="../assets/images/froyo.png"
-            />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://monsterra.io/" target="_blank">
-            <img
-              class="grayscale"
-              alt="monsterra"
-              src="../assets/images/monsterra.png"
-            />
-          </a>
-        </div>
-        <!-- <div class="triple-item pointer">
-          <a href="https://kingdomquest.io/" target="_blank">
-            <img
-              class="grayscale"
-              alt="kingdomquest"
-              src="../assets/images/kingdomquest.png"
-            />
-          </a>
-        </div> -->
-        <div class="triple-item pointer text">
-          <a href="https://solice.io/" target="_blank">
-            <img
-              class="grayscale"
-              alt="solice"
-              src="../assets/images/solice.png"
-            />
-            SOLICE
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://www.bloktopia.com/" target="_blank">
-            <img
-              class="invert"
-              alt="bloktopia"
-              src="../assets/images/blocktopia.png"
+                class="grayscale"
+                alt="Aether"
+                src="../assets/images/aether.png"
             />
           </a>
         </div>
         <div class="triple-item pointer">
           <a href="https://sidusheroes.com/" target="_blank">
             <img
-              class="grayscale"
-              alt="sidus"
-              src="../assets/images/sidus.svg"
+                class="grayscale"
+                alt="sidus"
+                src="../assets/images/sidus.svg"
+            />
+          </a>
+        </div>
+        <div class="triple-item pointer">
+          <a href="https://www.eof.gg/" target="_blank">
+            <img class="grayscale" alt="eof" src="../assets/images/eof.png" />
+          </a>
+        </div>
+        <div class="triple-item pointer">
+          <a href="https://wicrypt.com/" target="_blank">
+            <img class="grayscale" alt="wicrypt" src="../assets/images/wicrypt.png" />
+          </a>
+        </div>
+        <div class="triple-item pointer">
+          <a href="https://polytrade.finance/" target="_blank">
+            <img class="grayscale" alt="polytrade" src="../assets/images/polytrade.svg" />
+          </a>
+        </div>
+        <div class="triple-item pointer">
+          <a href="https://winr.games/" target="_blank">
+            <img class="grayscale" alt="winr" src="../assets/images/winr.svg" />
+          </a>
+        </div>
+        <div class="triple-item pointer">
+          <a href="https://www.bloktopia.com/" target="_blank">
+            <img
+                class="invert"
+                alt="bloktopia"
+                src="../assets/images/blocktopia.png"
+            />
+          </a>
+        </div>
+        <div class="triple-item pointer">
+          <a href="https://unkjd.games/" target="_blank">
+            <img class="grayscale" alt="unkjd" src="../assets/images/unkjd.png" />
+          </a>
+        </div>
+        <div class="triple-item pointer">
+          <a href="https://derace.com/" target="_blank">
+            <img
+                class="invert"
+                alt="derace"
+                src="../assets/images/derace.png"
             />
           </a>
         </div>
         <div class="triple-item pointer">
           <a href="https://rmg.io/" target="_blank">
             <img
-              class="grayscale"
-              alt="rainmakers"
-              src="../assets/images/rainmakers.png"
+                class="grayscale"
+                alt="rainmakers"
+                src="../assets/images/rainmakers.png"
             />
           </a>
         </div>
         <div class="triple-item pointer">
-          <a href="https://derace.com/" target="_blank">
+          <a href="https://froyo.games/" target="_blank">
             <img
-              class="invert"
-              alt="derace"
-              src="../assets/images/derace.png"
-            />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://www.monkeyball.com/" target="_blank">
-            <img
-              class="grayscale"
-              alt="monkey ball"
-              src="../assets/images/monkey.png"
-            />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://goldfever.io/" target="_blank">
-            <img
-              class="grayscale"
-              alt="gold fever"
-              src="../assets/images/goldfever.png"
-            />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://metawars.gg/" target="_blank">
-            <img
-              class="invert"
-              alt="metawars"
-              src="../assets/images/metawar.png"
-            />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://metagods.gg/" target="_blank">
-            <img class="grayscale" alt="" src="../assets/images/metagods.png" />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://www.wonderhero.io/" target="_blank">
-            <img
-              class="invert"
-              alt="wonderhero"
-              src="../assets/images/wonder_hero.png"
-            />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://projectseed.io/" target="_blank">
-            <img
-              class="grayscale"
-              alt="project seed"
-              src="../assets/images/seed.png"
-            />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://dreams.quest/" target="_blank">
-            <img
-              class="invert"
-              alt="dreams quest"
-              src="../assets/images/dreams.png"
-            />
-          </a>
-        </div>
-        <!-- <div class="triple-item pointer">
-          <a href="https://bemil.io/" target="_blank">
-            <img
-              id="bemil"
-              class="grayscale"
-              alt="bemil"
-              src="../assets/images/bemilcoin.png"
-            />
-          </a>
-        </div> -->
-        <div class="triple-item pointer">
-          <a href="https://www.titanhunters.io/" target="_blank">
-            <img
-              class="grayscale"
-              alt="titanhunters"
-              src="../assets/images/titan_hunter.png"
-            />
-          </a>
-        </div>
-        <!-- <div class="triple-item pointer">
-          <a href="https://www.spacecrypto.io/" target="_blank">
-            <img
-              class="grayscale"
-              alt="spacecrypto"
-              src="../assets/images/spacecrypto.png"
-            />
-          </a>
-        </div> -->
-        <div class="triple-item pointer">
-          <a href="https://f2nft.games/" target="_blank">
-            <img
-              class="grayscale"
-              alt="ftribe"
-              src="../assets/images/ftribe.svg"
+                class="grayscale"
+                alt="froyo"
+                src="../assets/images/froyo.png"
             />
           </a>
         </div>
         <div class="triple-item pointer">
           <a href="https://www.darkfrontiers.com/" target="_blank">
             <img
-              class="invert"
-              alt="dark frontiers"
-              src="../assets/images/dark_frontier.png"
+                class="invert"
+                alt="dark frontiers"
+                src="../assets/images/dark_frontier.png"
             />
           </a>
         </div>
         <div class="triple-item pointer">
-          <a href="https://www.warena.io/" target="_blank">
-            <img
-              class="invert"
-              alt="warena"
-              src="../assets/images/warena.png"
-            />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://aspo.world/" target="_blank">
-            <img class="grayscale" alt="aspo" src="../assets/images/aspo.png" />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://placewar.io/#/" target="_blank">
-            <img
-              class="grayscale"
-              alt="placewar"
-              src="../assets/images/placewar.png"
-            />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://www.sin-city.io/home" target="_blank">
-            <img
-              class="grayscale"
-              alt="sincity"
-              src="../assets/images/sincity.png"
-            />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://gunstar.io/" target="_blank">
-            <img class="grayscale" alt="" src="../assets/images/gunstar.png" />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://heroesempires.com/" target="_blank">
-            <img
-              class="invert"
-              alt="hero empires"
-              src="../assets/images/hero_empire.png"
-            />
+          <a href="https://label.foundation/" target="_blank">
+            <img class="grayscale" alt="label" src="../assets/images/label.png" />
           </a>
         </div>
         <div class="triple-item pointer">
@@ -554,87 +386,293 @@
           </a>
         </div>
         <div class="triple-item pointer">
-          <a href="https://deathroad.io/" target="_blank">
-            <img
-              class="invert"
-              alt="deathroad"
-              src="../assets/images/death_road.png"
-            />
-          </a>
-        </div>
-        <!-- <div class="triple-item pointer">
-          <a href="https://mytheria.io/" target="_blank">
-            <img
-              class="grayscale"
-              alt="mysteria"
-              src="../assets/images/mysteria.png"
-            />
-          </a>
-        </div> -->
-        <div class="triple-item pointer">
           <a href="https://kryptomon.co/" target="_blank">
             <img
-              class="grayscale"
-              alt="kryptomon"
-              src="../assets/images/kryptomon.png"
+                class="grayscale"
+                alt="kryptomon"
+                src="../assets/images/kryptomon.png"
             />
           </a>
         </div>
         <div class="triple-item pointer">
-          <a href="https://shopnext.io/" target="_blank">
+          <a href="https://monsterra.io/" target="_blank">
             <img
-              class="grayscale"
-              alt="shopnext"
-              src="../assets/images/shopnext.png"
-            />
-          </a>
-        </div>
-        <!-- <div class="triple-item pointer">
-          <a href="https://www.gamestation.io/" target="_blank">
-            <img
-              class="grayscale"
-              alt="game station"
-              src="../assets/images/game_station.svg"
-            />
-          </a>
-        </div> -->
-        <div class="triple-item pointer">
-          <a href="https://mymasterwar.com/" target="_blank">
-            <img
-              class="grayscale"
-              alt="mymasterwar"
-              src="../assets/images/maw.png"
-            />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://nftrade.com/" target="_blank">
-            <img
-              class="grayscale"
-              alt="nftrade"
-              src="../assets/images/nftrade.svg"
-            />
-          </a>
-        </div>
-        <div class="triple-item pointer">
-          <a href="https://planetsandbox.io/" target="_blank">
-            <img
-              class="grayscale"
-              alt="planet sandbox"
-              style="width: 151px; height: 40px"
-              src="../assets/images/planetsandbox.png"
+                class="grayscale"
+                alt="monsterra"
+                src="../assets/images/monsterra.png"
             />
           </a>
         </div>
         <div class="triple-item pointer">
           <a href="https://faraland.io/" target="_blank">
             <img
-              class="grayscale"
-              alt="fara land"
-              src="../assets/images/fara.png"
+                class="grayscale"
+                alt="fara land"
+                src="../assets/images/fara.png"
             />
           </a>
         </div>
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://goe.gg/" target="_blank">-->
+<!--            <img class="grayscale" alt="goe" src="../assets/images/goe.png" />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://theunfettered.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="the unfettered"-->
+<!--              src="../assets/images/unfettered.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://ertha.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="ertha"-->
+<!--              src="../assets/images/ertha.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; <div class="triple-item pointer">-->
+<!--          <a href="https://quoth.ai/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="quoth"-->
+<!--              src="../assets/images/quoth.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div> &ndash;&gt;-->
+
+<!--        &lt;!&ndash; <div class="triple-item pointer">-->
+<!--          <a href="https://kingdomquest.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="kingdomquest"-->
+<!--              src="../assets/images/kingdomquest.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div> &ndash;&gt;-->
+<!--        <div class="triple-item pointer text">-->
+<!--          <a href="https://solice.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="solice"-->
+<!--              src="../assets/images/solice.png"-->
+<!--            />-->
+<!--            SOLICE-->
+<!--          </a>-->
+<!--        </div>-->
+
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://www.monkeyball.com/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="monkey ball"-->
+<!--              src="../assets/images/monkey.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://goldfever.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="gold fever"-->
+<!--              src="../assets/images/goldfever.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://metawars.gg/" target="_blank">-->
+<!--            <img-->
+<!--              class="invert"-->
+<!--              alt="metawars"-->
+<!--              src="../assets/images/metawar.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://metagods.gg/" target="_blank">-->
+<!--            <img class="grayscale" alt="" src="../assets/images/metagods.png" />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://www.wonderhero.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="invert"-->
+<!--              alt="wonderhero"-->
+<!--              src="../assets/images/wonder_hero.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://projectseed.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="project seed"-->
+<!--              src="../assets/images/seed.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://dreams.quest/" target="_blank">-->
+<!--            <img-->
+<!--              class="invert"-->
+<!--              alt="dreams quest"-->
+<!--              src="../assets/images/dreams.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; <div class="triple-item pointer">-->
+<!--          <a href="https://bemil.io/" target="_blank">-->
+<!--            <img-->
+<!--              id="bemil"-->
+<!--              class="grayscale"-->
+<!--              alt="bemil"-->
+<!--              src="../assets/images/bemilcoin.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div> &ndash;&gt;-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://www.titanhunters.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="titanhunters"-->
+<!--              src="../assets/images/titan_hunter.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; <div class="triple-item pointer">-->
+<!--          <a href="https://www.spacecrypto.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="spacecrypto"-->
+<!--              src="../assets/images/spacecrypto.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div> &ndash;&gt;-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://f2nft.games/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="ftribe"-->
+<!--              src="../assets/images/ftribe.svg"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://www.warena.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="invert"-->
+<!--              alt="warena"-->
+<!--              src="../assets/images/warena.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://aspo.world/" target="_blank">-->
+<!--            <img class="grayscale" alt="aspo" src="../assets/images/aspo.png" />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://placewar.io/#/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="placewar"-->
+<!--              src="../assets/images/placewar.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://www.sin-city.io/home" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="sincity"-->
+<!--              src="../assets/images/sincity.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://gunstar.io/" target="_blank">-->
+<!--            <img class="grayscale" alt="" src="../assets/images/gunstar.png" />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://heroesempires.com/" target="_blank">-->
+<!--            <img-->
+<!--              class="invert"-->
+<!--              alt="hero empires"-->
+<!--              src="../assets/images/hero_empire.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://deathroad.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="invert"-->
+<!--              alt="deathroad"-->
+<!--              src="../assets/images/death_road.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; <div class="triple-item pointer">-->
+<!--          <a href="https://mytheria.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="mysteria"-->
+<!--              src="../assets/images/mysteria.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div> &ndash;&gt;-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://shopnext.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="shopnext"-->
+<!--              src="../assets/images/shopnext.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; <div class="triple-item pointer">-->
+<!--          <a href="https://www.gamestation.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="game station"-->
+<!--              src="../assets/images/game_station.svg"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div> &ndash;&gt;-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://mymasterwar.com/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="mymasterwar"-->
+<!--              src="../assets/images/maw.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://nftrade.com/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="nftrade"-->
+<!--              src="../assets/images/nftrade.svg"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+<!--        <div class="triple-item pointer">-->
+<!--          <a href="https://planetsandbox.io/" target="_blank">-->
+<!--            <img-->
+<!--              class="grayscale"-->
+<!--              alt="planet sandbox"-->
+<!--              style="width: 151px; height: 40px"-->
+<!--              src="../assets/images/planetsandbox.png"-->
+<!--            />-->
+<!--          </a>-->
+<!--        </div>-->
+
       </div>
     </div>
     <!-- subscribe -->
